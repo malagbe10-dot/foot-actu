@@ -1,0 +1,14 @@
+{
+  "site_name": "Foot Actu",
+  "tagline": "Scores, résultats et actualités du football en continu",
+  "facebook_page_url": "",
+  "utc_offset_hours": 0,
+  "max_posts_per_run": 3,
+  "news_per_run": 3,
+  "news_feeds": [
+    {"name": "L'Équipe", "url": "https://www.lequipe.fr/rss/actu_rss_Football.xml"},
+    {"name": "RMC Sport", "url": "https://rmcsport.bfmtv.com/rss/football/"}
+  ],
+  "competitions": ["FL1", "PL", "PD", "SA", "BL1", "CL"],
+  "standings_competitions": ["FL1", "PL", "PD"]
+}

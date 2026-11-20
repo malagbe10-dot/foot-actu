@@ -5,7 +5,8 @@
     "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-tirage-au-sort-des-quarts-de-finale-avec-la-france_AV-202611191059.html",
     "fixtures-2026-11-20",
     "standings-FL1-2026-W47",
-    "standings-PL-2026-W47"
+    "standings-PL-2026-W47",
+    "standings-PD-2026-W47"
   ],
   "history": [
     {
@@ -52,6 +53,13 @@
       "title": "Classement Premier League",
       "message": "📊 Classement Premier League (top 10)\n\n1. Arsenal – 27 pts\n2. Brighton Hove – 22 pts\n3. Man City – 21 pts\n4. Liverpool – 18 pts\n5. Chelsea – 16 pts\n6. Everton – 16 pts\n7. Bournemouth – 15 pts\n8. Brentford – 14 pts\n9. Leeds United – 14 pts\n10. Aston Villa – 13 pts\n\n#Football",
       "date": "2026-11-20T03:44:15.471842+00:00"
+    },
+    {
+      "id": "standings-PD-2026-W47",
+      "type": "standings",
+      "title": "Classement Primera Division",
+      "message": "📊 Classement Primera Division (top 10)\n\n1. Barça – 33 pts\n2. Real Madrid – 30 pts\n3. Atleti – 28 pts\n4. Real Betis – 26 pts\n5. Real Sociedad – 22 pts\n6. Sevilla FC – 18 pts\n7. Athletic – 16 pts\n8. Villarreal – 15 pts\n9. Deportivo – 15 pts\n10. Santander – 14 pts\n\n#Football",
+      "date": "2026-11-20T04:51:25.700483+00:00"
     }
   ]
 }

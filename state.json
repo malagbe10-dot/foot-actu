@@ -40,7 +40,10 @@
     "news-https://rmcsport.bfmtv.com/football/presidence-de-la-fifa-coup-dur-pour-philippe-diallo-la-conmebol-reaffirme-son-soutien-a-gianni-infantino_AV-202611200869.html",
     "news-https://rmcsport.bfmtv.com/football/bundesliga/coup-dur-pour-le-bayern-kane-sort-sur-blessure-avant-d-affronter-lille-en-ligue-des-champions_AV-202611200903.html",
     "news-https://rmcsport.bfmtv.com/football/ligue-2/le-stade-bauer-plonge-dans-le-noir-le-match-red-star-pau-interrompu-a-cause-d-un-probleme-d-eclairage_AN-202611200939.html",
-    "result-565859"
+    "result-565859",
+    "news-https://rmcsport.bfmtv.com/football/equipe-de-france/video-ligue-des-nations-france-espagne-l-heure-de-la-reconquista_VN-202611200967.html",
+    "news-https://rmcsport.bfmtv.com/football/bayern-de-munich_DN-201307180413.html",
+    "news-https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html"
   ],
   "history": [
     {
@@ -365,6 +368,30 @@
       "title": "Bayern 1 - 1 1. FC Köln",
       "message": "🏁 Score final – Bundesliga\n\nBayern 1 - 1 1. FC Köln\n\n#Football #Bundesliga",
       "date": "2026-11-20T21:37:57.902272+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/equipe-de-france/video-ligue-des-nations-france-espagne-l-heure-de-la-reconquista_VN-202611200967.html",
+      "type": "news",
+      "title": "Ligue des nations : France-Espagne, l'heure de la RECONQUISTA",
+      "message": "⚽ Ligue des nations : France-Espagne, l'heure de la RECONQUISTA\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/equipe-de-france/video-ligue-des-nations-france-espagne-l-heure-de-la-reconquista_VN-202611200967.html",
+      "date": "2026-11-20T22:37:11.095881+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/bayern-de-munich_DN-201307180413.html",
+      "type": "news",
+      "title": "Bayern Munich",
+      "message": "⚽ Bayern Munich\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/bayern-de-munich_DN-201307180413.html",
+      "date": "2026-11-20T22:37:15.475509+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html",
+      "type": "news",
+      "title": "Bayern: la tuile est confirmée pour Kane, gravement blessé à la cheville et absent plusieurs mois",
+      "message": "⚽ Bayern: la tuile est confirmée pour Kane, gravement blessé à la cheville et absent plusieurs mois\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html",
+      "date": "2026-11-20T22:37:18.057334+00:00"
     }
   ]
 }

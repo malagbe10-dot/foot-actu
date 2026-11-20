@@ -32,7 +32,9 @@
     "news-https://rmcsport.bfmtv.com/football/clubs/olympique-marseille/cinema-quincaillerie-la-notoriete-parfois-embarassante-de-jeffrey-de-lange-a-marseille_AV-202611200668.html",
     "news-https://rmcsport.bfmtv.com/football/premier-league/chelsea_DN-202304160370.html",
     "news-https://rmcsport.bfmtv.com/football/premier-league/mercato-tom-brady-en-discussion-pour-devenir-actionnaire-minoritaire-de-chelsea-apres-son-depart-de-birmingham_AV-202611200727.html",
-    "news-https://rmcsport.bfmtv.com/football/ligue-1/je-n-ai-encore-rien-fait-comment-pablo-pagis-veut-garder-les-pieds-sur-terre-apres-sa-premiere-selection-en-bleu_AV-202611200736.html"
+    "news-https://rmcsport.bfmtv.com/football/ligue-1/je-n-ai-encore-rien-fait-comment-pablo-pagis-veut-garder-les-pieds-sur-terre-apres-sa-premiere-selection-en-bleu_AV-202611200736.html",
+    "news-https://rmcsport.bfmtv.com/football/video-jj-gabriel-de-mu-au-real-il-peut-exploser-comme-un-popcorn-calme-rothen_VN-202611200840.html",
+    "news-https://rmcsport.bfmtv.com/football/coupe-du-monde-des-personnes-de-petite-taille-la-france-participe-pour-la-premiere-fois-de-son-histoire-au-mondial-au-maroc_AN-202611200820.html"
   ],
   "history": [
     {
@@ -294,6 +296,22 @@
       "message": "⚽ \"Je n'ai encore rien fait\": comment Pablo Pagis veut \"garder les pieds sur Terre\" après sa première sélection en Bleu\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/ligue-1/je-n-ai-encore-rien-fait-comment-pablo-pagis-veut-garder-les-pieds-sur-terre-apres-sa-premiere-selection-en-bleu_AV-202611200736.html",
       "date": "2026-11-20T17:49:16.822284+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/video-jj-gabriel-de-mu-au-real-il-peut-exploser-comme-un-popcorn-calme-rothen_VN-202611200840.html",
+      "type": "news",
+      "title": "JJ Gabriel de MU au Real ? \"Il peut exploser comme un popcorn\" calme Rothen",
+      "message": "⚽ JJ Gabriel de MU au Real ? \"Il peut exploser comme un popcorn\" calme Rothen\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/video-jj-gabriel-de-mu-au-real-il-peut-exploser-comme-un-popcorn-calme-rothen_VN-202611200840.html",
+      "date": "2026-11-20T18:49:29.072150+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/coupe-du-monde-des-personnes-de-petite-taille-la-france-participe-pour-la-premiere-fois-de-son-histoire-au-mondial-au-maroc_AN-202611200820.html",
+      "type": "news",
+      "title": "Coupe du monde des personnes de petite taille: la France participe pour la première fois de son histoire au Mondial au Maroc",
+      "message": "⚽ Coupe du monde des personnes de petite taille: la France participe pour la première fois de son histoire au Mondial au Maroc\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/coupe-du-monde-des-personnes-de-petite-taille-la-france-participe-pour-la-premiere-fois-de-son-histoire-au-mondial-au-maroc_AN-202611200820.html",
+      "date": "2026-11-20T18:49:32.515411+00:00"
     }
   ]
 }

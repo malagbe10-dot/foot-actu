@@ -17,7 +17,10 @@
     "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/direct-ligue-des-nations-quel-adversaire-pour-l-equipe-de-france-suivez-le-tirage-au-sort-des-quarts-de-finale-en-live_LN-202611200317.html",
     "news-https://rmcsport.bfmtv.com/football/ligue-1/video-ligue-1-le-programme-complet-de-la-j11-et-le-classement_VN-202611200419.html",
     "news-https://rmcsport.bfmtv.com/football/clubs/olympique-marseille/direct-om-suivez-en-live-la-conference-de-presse-de-bruno-genesio-avant-la-reception-du-mans_LN-202611200406.html",
-    "news-https://rmcsport.bfmtv.com/football/gianni-infantino_DN-202607290231.html"
+    "news-https://rmcsport.bfmtv.com/football/gianni-infantino_DN-202607290231.html",
+    "news-https://rmcsport.bfmtv.com/football/jose-mourinho_DN-202108310520.html",
+    "news-https://rmcsport.bfmtv.com/football/liga/vinicius-junior_DN-202409300526.html",
+    "news-https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html"
   ],
   "history": [
     {
@@ -159,6 +162,30 @@
       "message": "⚽ Gianni Infantino\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/gianni-infantino_DN-202607290231.html",
       "date": "2026-11-20T09:29:15.004249+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/jose-mourinho_DN-202108310520.html",
+      "type": "news",
+      "title": "Jose Mourinho",
+      "message": "⚽ Jose Mourinho\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/jose-mourinho_DN-202108310520.html",
+      "date": "2026-11-20T10:29:59.809856+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/liga/vinicius-junior_DN-202409300526.html",
+      "type": "news",
+      "title": "Vinicius Junior",
+      "message": "⚽ Vinicius Junior\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/liga/vinicius-junior_DN-202409300526.html",
+      "date": "2026-11-20T10:30:10.749691+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html",
+      "type": "news",
+      "title": "Real Madrid: la mise en garde de Mourinho à Vinicius Jr avant son retour de suspension",
+      "message": "⚽ Real Madrid: la mise en garde de Mourinho à Vinicius Jr avant son retour de suspension\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html",
+      "date": "2026-11-20T10:30:14.539805+00:00"
     }
   ]
 }

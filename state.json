@@ -22,7 +22,8 @@
     "news-https://rmcsport.bfmtv.com/football/liga/vinicius-junior_DN-202409300526.html",
     "news-https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html",
     "news-https://rmcsport.bfmtv.com/football/liga/fc-barcelone_DN-202304140698.html",
-    "news-https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html"
+    "news-https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html",
+    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html"
   ],
   "history": [
     {
@@ -204,6 +205,14 @@
       "message": "⚽ Une pépite de 14 ans entre Rennes et le Barça: ce que disent les règlements sur les contrats professionnels et les départs à l'étranger de joueurs mineurs\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html",
       "date": "2026-11-20T11:27:32.237013+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html",
+      "type": "news",
+      "title": "DIRECT. PSG: suivez en live la conférence de presse de Luis Enrique avant le déplacement à Nice",
+      "message": "⚽ DIRECT. PSG: suivez en live la conférence de presse de Luis Enrique avant le déplacement à Nice\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html",
+      "date": "2026-11-20T12:25:07.117482+00:00"
     }
   ]
 }

@@ -20,7 +20,9 @@
     "news-https://rmcsport.bfmtv.com/football/gianni-infantino_DN-202607290231.html",
     "news-https://rmcsport.bfmtv.com/football/jose-mourinho_DN-202108310520.html",
     "news-https://rmcsport.bfmtv.com/football/liga/vinicius-junior_DN-202409300526.html",
-    "news-https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html"
+    "news-https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html",
+    "news-https://rmcsport.bfmtv.com/football/liga/fc-barcelone_DN-202304140698.html",
+    "news-https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html"
   ],
   "history": [
     {
@@ -186,6 +188,22 @@
       "message": "⚽ Real Madrid: la mise en garde de Mourinho à Vinicius Jr avant son retour de suspension\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html",
       "date": "2026-11-20T10:30:14.539805+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/liga/fc-barcelone_DN-202304140698.html",
+      "type": "news",
+      "title": "FC Barcelone",
+      "message": "⚽ FC Barcelone\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/liga/fc-barcelone_DN-202304140698.html",
+      "date": "2026-11-20T11:27:27.394327+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html",
+      "type": "news",
+      "title": "Une pépite de 14 ans entre Rennes et le Barça: ce que disent les règlements sur les contrats professionnels et les départs à l'étranger de joueurs mineurs",
+      "message": "⚽ Une pépite de 14 ans entre Rennes et le Barça: ce que disent les règlements sur les contrats professionnels et les départs à l'étranger de joueurs mineurs\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html",
+      "date": "2026-11-20T11:27:32.237013+00:00"
     }
   ]
 }

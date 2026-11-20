@@ -2,7 +2,10 @@
   "posted_ids": [
     "news-https://rmcsport.bfmtv.com/football/feminin/ligue-des-champions/ligue-des-champions-feminine-l-ol-en-quarts-en-dominant-arsenal_AD-202611191078.html",
     "news-https://rmcsport.bfmtv.com/football/coupe-d-afrique-des-nations/l-arbitre-international-algerien-youcef-gamouh-est-mort-a-39-ans_AN-202611191062.html",
-    "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-tirage-au-sort-des-quarts-de-finale-avec-la-france_AV-202611191059.html"
+    "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-tirage-au-sort-des-quarts-de-finale-avec-la-france_AV-202611191059.html",
+    "fixtures-2026-11-20",
+    "standings-FL1-2026-W47",
+    "standings-PL-2026-W47"
   ],
   "history": [
     {
@@ -28,6 +31,27 @@
       "message": "⚽ Ligue des nations: à quelle heure et sur quelle chaîne TV suivre le tirage au sort des quarts de finale avec la France?\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-tirage-au-sort-des-quarts-de-finale-avec-la-france_AV-202611191059.html",
       "date": "2026-11-20T02:52:34.592060+00:00"
+    },
+    {
+      "id": "fixtures-2026-11-20",
+      "type": "fixtures",
+      "title": "Programme du 2026-11-20",
+      "message": "📅 Au programme aujourd'hui\n\n🕒 19:30 – Bayern vs 1. FC Köln\n🕒 19:45 – Troyes vs Le Havre\n🕒 20:00 – Athletic vs Espanyol\n\n#Football",
+      "date": "2026-11-20T03:44:09.550216+00:00"
+    },
+    {
+      "id": "standings-FL1-2026-W47",
+      "type": "standings",
+      "title": "Classement Ligue 1",
+      "message": "📊 Classement Ligue 1 (top 10)\n\n1. PSG – 23 pts\n2. Lille – 21 pts\n3. Paris FC – 20 pts\n4. Marseille – 18 pts\n5. Olympique Lyon – 17 pts\n6. Nice – 17 pts\n7. Monaco – 16 pts\n8. Stade Rennais – 16 pts\n9. Brest – 15 pts\n10. Lorient – 15 pts\n\n#Football",
+      "date": "2026-11-20T03:44:12.772593+00:00"
+    },
+    {
+      "id": "standings-PL-2026-W47",
+      "type": "standings",
+      "title": "Classement Premier League",
+      "message": "📊 Classement Premier League (top 10)\n\n1. Arsenal – 27 pts\n2. Brighton Hove – 22 pts\n3. Man City – 21 pts\n4. Liverpool – 18 pts\n5. Chelsea – 16 pts\n6. Everton – 16 pts\n7. Bournemouth – 15 pts\n8. Brentford – 14 pts\n9. Leeds United – 14 pts\n10. Aston Villa – 13 pts\n\n#Football",
+      "date": "2026-11-20T03:44:15.471842+00:00"
     }
   ]
 }

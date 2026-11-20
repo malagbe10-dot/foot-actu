@@ -3,12 +3,133 @@
   "tagline": "Scores, résultats et actualités du football en continu",
   "facebook_page_url": "",
   "utc_offset_hours": 0,
-  "max_posts_per_run": 3,
-  "news_per_run": 3,
+  "max_posts_per_run": 4,
+  "max_posts_per_day": 40,
+  "news_per_run": 8,
+  "show_link_preview": false,
   "news_feeds": [
-    {"name": "L'Équipe", "url": "https://www.lequipe.fr/rss/actu_rss_Football.xml"},
-    {"name": "RMC Sport", "url": "https://rmcsport.bfmtv.com/rss/football/"}
+    {
+      "name": "L'Équipe",
+      "url": "https://www.lequipe.fr/rss/actu_rss_Football.xml"
+    },
+    {
+      "name": "RMC Sport",
+      "url": "https://rmcsport.bfmtv.com/rss/football/"
+    },
+    {
+      "name": "So Foot",
+      "url": "https://www.sofoot.com/rss.xml"
+    },
+    {
+      "name": "Eurosport",
+      "url": "https://www.eurosport.fr/football/rss.xml"
+    },
+    {
+      "name": "AS",
+      "url": "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/",
+      "lang": "es"
+    },
+    {
+      "name": "BBC Sport",
+      "url": "https://feeds.bbci.co.uk/sport/football/rss.xml",
+      "lang": "en"
+    },
+    {
+      "name": "Foot Mercato",
+      "url": "https://www.footmercato.net/flux-rss"
+    },
+    {
+      "name": "Foot01",
+      "url": "https://www.foot01.com/rss"
+    },
+    {
+      "name": "Sky Sports",
+      "url": "https://www.skysports.com/rss/12040",
+      "lang": "en"
+    },
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/football/rss",
+      "lang": "en"
+    },
+    {
+      "name": "ESPN",
+      "url": "https://www.espn.com/espn/rss/soccer/news",
+      "lang": "en"
+    },
+    {
+      "name": "Mundo Deportivo",
+      "url": "https://www.mundodeportivo.com/rss/futbol.xml",
+      "lang": "es"
+    },
+    {
+      "name": "Marca",
+      "url": "https://e00-marca.uecdn.es/rss/futbol/primera-division.xml",
+      "lang": "es"
+    },
+    {
+      "name": "Foot Mercato",
+      "url": "https://www.footmercato.net/flux-rss/"
+    }
   ],
-  "competitions": ["FL1", "PL", "PD", "SA", "BL1", "CL"],
-  "standings_competitions": ["FL1", "PL", "PD"]
+  "competitions": [
+    "FL1",
+    "PL",
+    "PD",
+    "SA",
+    "BL1",
+    "CL",
+    "ELC",
+    "DED",
+    "PPL",
+    "BSA",
+    "EC",
+    "WC"
+  ],
+  "standings_competitions": [
+    "FL1",
+    "PL",
+    "PD",
+    "SA",
+    "BL1",
+    "PPL"
+  ],
+  "live": {
+    "enabled": true,
+    "league_ids": [
+      61,
+      39,
+      140,
+      135,
+      78,
+      2,
+      1,
+      6
+    ],
+    "kinds": [
+      "goal",
+      "red",
+      "var",
+      "penmiss"
+    ],
+    "max_events_per_run": 8,
+    "max_events_per_day": 80,
+    "catchup_minutes": 15,
+    "hours_utc": [
+      12,
+      23
+    ],
+    "min_minutes_between_calls": 10,
+    "max_calls_per_day": 90,
+    "fd_enabled": true,
+    "fd_competitions": [
+      "FL1",
+      "PL",
+      "PD",
+      "SA",
+      "BL1",
+      "CL",
+      "WC"
+    ]
+  }
 }

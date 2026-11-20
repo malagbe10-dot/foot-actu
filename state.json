@@ -37,7 +37,8 @@
     "news-https://rmcsport.bfmtv.com/football/coupe-du-monde-des-personnes-de-petite-taille-la-france-participe-pour-la-premiere-fois-de-son-histoire-au-mondial-au-maroc_AN-202611200820.html",
     "news-https://rmcsport.bfmtv.com/football/ligue-1/direct-troyes-le-havre-suivez-le-match-d-ouverture-de-la-11e-journee-de-ligue-1_LS-202611200719.html",
     "news-https://rmcsport.bfmtv.com/football/direct-philippe-diallo-candidat-a-la-presidence-de-la-fifa-face-a-infantino-toutes-les-infos-et-reactions-en-live_LN-202611160689.html",
-    "news-https://rmcsport.bfmtv.com/football/presidence-de-la-fifa-coup-dur-pour-philippe-diallo-la-conmebol-reaffirme-son-soutien-a-gianni-infantino_AV-202611200869.html"
+    "news-https://rmcsport.bfmtv.com/football/presidence-de-la-fifa-coup-dur-pour-philippe-diallo-la-conmebol-reaffirme-son-soutien-a-gianni-infantino_AV-202611200869.html",
+    "news-https://rmcsport.bfmtv.com/football/bundesliga/coup-dur-pour-le-bayern-kane-sort-sur-blessure-avant-d-affronter-lille-en-ligue-des-champions_AV-202611200903.html"
   ],
   "history": [
     {
@@ -339,6 +340,14 @@
       "message": "⚽ Présidence de la Fifa: coup dur pour Philippe Diallo, la Conmebol réaffirme son soutien à Gianni Infantino\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/presidence-de-la-fifa-coup-dur-pour-philippe-diallo-la-conmebol-reaffirme-son-soutien-a-gianni-infantino_AV-202611200869.html",
       "date": "2026-11-20T19:51:55.703197+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/bundesliga/coup-dur-pour-le-bayern-kane-sort-sur-blessure-avant-d-affronter-lille-en-ligue-des-champions_AV-202611200903.html",
+      "type": "news",
+      "title": "Coup dur pour le Bayern: Kane sort sur blessure avant d'affronter Lille en Ligue des champions",
+      "message": "⚽ Coup dur pour le Bayern: Kane sort sur blessure avant d'affronter Lille en Ligue des champions\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/bundesliga/coup-dur-pour-le-bayern-kane-sort-sur-blessure-avant-d-affronter-lille-en-ligue-des-champions_AV-202611200903.html",
+      "date": "2026-11-20T20:41:49.583084+00:00"
     }
   ]
 }

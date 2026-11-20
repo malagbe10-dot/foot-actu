@@ -23,7 +23,10 @@
     "news-https://rmcsport.bfmtv.com/football/liga/real-madrid-la-mise-en-garde-de-mourinho-a-vinicius-jr-avant-son-retour-de-suspension_AV-202611200469.html",
     "news-https://rmcsport.bfmtv.com/football/liga/fc-barcelone_DN-202304140698.html",
     "news-https://rmcsport.bfmtv.com/football/transferts/une-pepite-de-14-ans-entre-rennes-et-le-barca-ce-que-disent-les-reglements-sur-les-contrats-professionnels-et-les-departs-a-l-etranger-de-joueurs-mineurs_AV-202611200496.html",
-    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html"
+    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html",
+    "news-https://rmcsport.bfmtv.com/football/equipe-de-france/ligue-des-nations-comment-zidane-a-reagi-au-tirage-france-espagne-son-premier-tres-gros-choc-a-la-tete-des-bleus_AV-202611200597.html",
+    "news-https://rmcsport.bfmtv.com/football/clubs/olympique-lyon/pourquoi-l-ol-a-volontairement-diffuse-les-vifs-reproches-de-corentin-tolisso-a-paulo-fonseca-dans-un-extrait-video_AV-202611200596.html",
+    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html"
   ],
   "history": [
     {
@@ -213,6 +216,30 @@
       "message": "⚽ DIRECT. PSG: suivez en live la conférence de presse de Luis Enrique avant le déplacement à Nice\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html",
       "date": "2026-11-20T12:25:07.117482+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/equipe-de-france/ligue-des-nations-comment-zidane-a-reagi-au-tirage-france-espagne-son-premier-tres-gros-choc-a-la-tete-des-bleus_AV-202611200597.html",
+      "type": "news",
+      "title": "Ligue des nations: comment Zidane a réagi au tirage France-Espagne, son premier très gros choc à la tête des Bleus",
+      "message": "⚽ Ligue des nations: comment Zidane a réagi au tirage France-Espagne, son premier très gros choc à la tête des Bleus\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/equipe-de-france/ligue-des-nations-comment-zidane-a-reagi-au-tirage-france-espagne-son-premier-tres-gros-choc-a-la-tete-des-bleus_AV-202611200597.html",
+      "date": "2026-11-20T13:43:41.222448+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/clubs/olympique-lyon/pourquoi-l-ol-a-volontairement-diffuse-les-vifs-reproches-de-corentin-tolisso-a-paulo-fonseca-dans-un-extrait-video_AV-202611200596.html",
+      "type": "news",
+      "title": "Pourquoi l'OL a volontairement diffusé les vifs reproches de Corentin Tolisso à Paulo Fonseca dans un extrait vidéo",
+      "message": "⚽ Pourquoi l'OL a volontairement diffusé les vifs reproches de Corentin Tolisso à Paulo Fonseca dans un extrait vidéo\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/clubs/olympique-lyon/pourquoi-l-ol-a-volontairement-diffuse-les-vifs-reproches-de-corentin-tolisso-a-paulo-fonseca-dans-un-extrait-video_AV-202611200596.html",
+      "date": "2026-11-20T13:43:47.831398+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html",
+      "type": "news",
+      "title": "Luis Enrique entraîneur du PSG",
+      "message": "⚽ Luis Enrique entraîneur du PSG\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html",
+      "date": "2026-11-20T13:43:54.373467+00:00"
     }
   ]
 }

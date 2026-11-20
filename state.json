@@ -26,7 +26,9 @@
     "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/direct-psg-suivez-en-live-la-conference-de-presse-de-luis-enrique-avant-le-deplacement-a-nice_LN-202611200385.html",
     "news-https://rmcsport.bfmtv.com/football/equipe-de-france/ligue-des-nations-comment-zidane-a-reagi-au-tirage-france-espagne-son-premier-tres-gros-choc-a-la-tete-des-bleus_AV-202611200597.html",
     "news-https://rmcsport.bfmtv.com/football/clubs/olympique-lyon/pourquoi-l-ol-a-volontairement-diffuse-les-vifs-reproches-de-corentin-tolisso-a-paulo-fonseca-dans-un-extrait-video_AV-202611200596.html",
-    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html"
+    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html",
+    "news-https://rmcsport.bfmtv.com/football/ligue-1/je-ne-sais-pas-si-les-interviews-permettent-aux-joueurs-de-faire-de-meilleurs-choix-la-reponse-assez-seche-de-franck-haise-au-coup-de-pression-de-nicolas-de-tavernost-a-rennes_AV-202611200625.html",
+    "news-https://rmcsport.bfmtv.com/football/ils-se-sont-fait-la-malle-la-drole-de-mesaventure-d-un-joueur-bresilien-qui-a-perdu-ses-cheveux-en-plein-match_AN-202611200607.html"
   ],
   "history": [
     {
@@ -240,6 +242,22 @@
       "message": "⚽ Luis Enrique entraîneur du PSG\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html",
       "date": "2026-11-20T13:43:54.373467+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/ligue-1/je-ne-sais-pas-si-les-interviews-permettent-aux-joueurs-de-faire-de-meilleurs-choix-la-reponse-assez-seche-de-franck-haise-au-coup-de-pression-de-nicolas-de-tavernost-a-rennes_AV-202611200625.html",
+      "type": "news",
+      "title": "\"Je ne sais pas si les interviews permettent aux joueurs de faire de meilleurs choix\": la réponse assez sèche de Franck Haise au coup de pression de Nicolas de Tavernost à Rennes",
+      "message": "⚽ \"Je ne sais pas si les interviews permettent aux joueurs de faire de meilleurs choix\": la réponse assez sèche de Franck Haise au coup de pression de Nicolas de Tavernost à Rennes\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-1/je-ne-sais-pas-si-les-interviews-permettent-aux-joueurs-de-faire-de-meilleurs-choix-la-reponse-assez-seche-de-franck-haise-au-coup-de-pression-de-nicolas-de-tavernost-a-rennes_AV-202611200625.html",
+      "date": "2026-11-20T14:46:43.372266+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/ils-se-sont-fait-la-malle-la-drole-de-mesaventure-d-un-joueur-bresilien-qui-a-perdu-ses-cheveux-en-plein-match_AN-202611200607.html",
+      "type": "news",
+      "title": "\"Ils se sont fait la malle\": la drôle de mésaventure d'un joueur brésilien qui a perdu ses cheveux en plein match",
+      "message": "⚽ \"Ils se sont fait la malle\": la drôle de mésaventure d'un joueur brésilien qui a perdu ses cheveux en plein match\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/ils-se-sont-fait-la-malle-la-drole-de-mesaventure-d-un-joueur-bresilien-qui-a-perdu-ses-cheveux-en-plein-match_AN-202611200607.html",
+      "date": "2026-11-20T14:46:47.102801+00:00"
     }
   ]
 }

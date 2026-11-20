@@ -6,7 +6,10 @@
     "fixtures-2026-11-20",
     "standings-FL1-2026-W47",
     "standings-PL-2026-W47",
-    "standings-PD-2026-W47"
+    "standings-PD-2026-W47",
+    "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/il-ne-faut-pas-le-rater-eli-junior-kroupi-le-prochain-coup-a-ne-pas-manquer-pour-le-psg_AV-202611200178.html",
+    "news-https://rmcsport.bfmtv.com/football/antoine-griezmann_DN-202108310489.html",
+    "news-https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html"
   ],
   "history": [
     {
@@ -60,6 +63,30 @@
       "title": "Classement Primera Division",
       "message": "📊 Classement Primera Division (top 10)\n\n1. Barça – 33 pts\n2. Real Madrid – 30 pts\n3. Atleti – 28 pts\n4. Real Betis – 26 pts\n5. Real Sociedad – 22 pts\n6. Sevilla FC – 18 pts\n7. Athletic – 16 pts\n8. Villarreal – 15 pts\n9. Deportivo – 15 pts\n10. Santander – 14 pts\n\n#Football",
       "date": "2026-11-20T04:51:25.700483+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/il-ne-faut-pas-le-rater-eli-junior-kroupi-le-prochain-coup-a-ne-pas-manquer-pour-le-psg_AV-202611200178.html",
+      "type": "news",
+      "title": "\"Il ne faut pas le rater\", Eli Junior Kroupi le prochain coup à ne pas manquer pour le PSG?",
+      "message": "⚽ \"Il ne faut pas le rater\", Eli Junior Kroupi le prochain coup à ne pas manquer pour le PSG?\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/il-ne-faut-pas-le-rater-eli-junior-kroupi-le-prochain-coup-a-ne-pas-manquer-pour-le-psg_AV-202611200178.html",
+      "date": "2026-11-20T05:54:15.074695+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/antoine-griezmann_DN-202108310489.html",
+      "type": "news",
+      "title": "Antoine Griezmann",
+      "message": "⚽ Antoine Griezmann\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/antoine-griezmann_DN-202108310489.html",
+      "date": "2026-11-20T05:54:18.308750+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html",
+      "type": "news",
+      "title": "Fin du rêve pour Antoine Griezmann: Orlando éliminé en barrage de la MLS",
+      "message": "⚽ Fin du rêve pour Antoine Griezmann: Orlando éliminé en barrage de la MLS\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html",
+      "date": "2026-11-20T05:54:23.684097+00:00"
     }
   ]
 }

@@ -28,7 +28,8 @@
     "news-https://rmcsport.bfmtv.com/football/clubs/olympique-lyon/pourquoi-l-ol-a-volontairement-diffuse-les-vifs-reproches-de-corentin-tolisso-a-paulo-fonseca-dans-un-extrait-video_AV-202611200596.html",
     "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/luis-enrique_DN-202308300457.html",
     "news-https://rmcsport.bfmtv.com/football/ligue-1/je-ne-sais-pas-si-les-interviews-permettent-aux-joueurs-de-faire-de-meilleurs-choix-la-reponse-assez-seche-de-franck-haise-au-coup-de-pression-de-nicolas-de-tavernost-a-rennes_AV-202611200625.html",
-    "news-https://rmcsport.bfmtv.com/football/ils-se-sont-fait-la-malle-la-drole-de-mesaventure-d-un-joueur-bresilien-qui-a-perdu-ses-cheveux-en-plein-match_AN-202611200607.html"
+    "news-https://rmcsport.bfmtv.com/football/ils-se-sont-fait-la-malle-la-drole-de-mesaventure-d-un-joueur-bresilien-qui-a-perdu-ses-cheveux-en-plein-match_AN-202611200607.html",
+    "news-https://rmcsport.bfmtv.com/football/clubs/olympique-marseille/cinema-quincaillerie-la-notoriete-parfois-embarassante-de-jeffrey-de-lange-a-marseille_AV-202611200668.html"
   ],
   "history": [
     {
@@ -258,6 +259,14 @@
       "message": "⚽ \"Ils se sont fait la malle\": la drôle de mésaventure d'un joueur brésilien qui a perdu ses cheveux en plein match\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/ils-se-sont-fait-la-malle-la-drole-de-mesaventure-d-un-joueur-bresilien-qui-a-perdu-ses-cheveux-en-plein-match_AN-202611200607.html",
       "date": "2026-11-20T14:46:47.102801+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/clubs/olympique-marseille/cinema-quincaillerie-la-notoriete-parfois-embarassante-de-jeffrey-de-lange-a-marseille_AV-202611200668.html",
+      "type": "news",
+      "title": "Cinéma, quincaillerie... La notoriété parfois embarassante de Jeffrey de Lange à Marseille",
+      "message": "⚽ Cinéma, quincaillerie... La notoriété parfois embarassante de Jeffrey de Lange à Marseille\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/clubs/olympique-marseille/cinema-quincaillerie-la-notoriete-parfois-embarassante-de-jeffrey-de-lange-a-marseille_AV-202611200668.html",
+      "date": "2026-11-20T15:48:20.935081+00:00"
     }
   ]
 }

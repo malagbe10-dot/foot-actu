@@ -9,7 +9,10 @@
     "standings-PD-2026-W47",
     "news-https://rmcsport.bfmtv.com/football/clubs/paris-saint-germain/il-ne-faut-pas-le-rater-eli-junior-kroupi-le-prochain-coup-a-ne-pas-manquer-pour-le-psg_AV-202611200178.html",
     "news-https://rmcsport.bfmtv.com/football/antoine-griezmann_DN-202108310489.html",
-    "news-https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html"
+    "news-https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html",
+    "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-le-pire-et-le-meilleur-tirage-pour-la-france-en-quarts-de-finale_AV-202611200255.html",
+    "news-https://rmcsport.bfmtv.com/football/clubs/ogc-nice/nice-est-il-redevenu-un-candidat-credible-a-l-europe_AV-202611200088.html",
+    "news-https://rmcsport.bfmtv.com/football/mauricio-pochettino_DN-202108310539.html"
   ],
   "history": [
     {
@@ -87,6 +90,30 @@
       "message": "⚽ Fin du rêve pour Antoine Griezmann: Orlando éliminé en barrage de la MLS\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html",
       "date": "2026-11-20T05:54:23.684097+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-le-pire-et-le-meilleur-tirage-pour-la-france-en-quarts-de-finale_AV-202611200255.html",
+      "type": "news",
+      "title": "Ligue des nations: le pire et le meilleur tirage pour la France en quarts de finale",
+      "message": "⚽ Ligue des nations: le pire et le meilleur tirage pour la France en quarts de finale\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-le-pire-et-le-meilleur-tirage-pour-la-france-en-quarts-de-finale_AV-202611200255.html",
+      "date": "2026-11-20T06:56:53.226367+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/clubs/ogc-nice/nice-est-il-redevenu-un-candidat-credible-a-l-europe_AV-202611200088.html",
+      "type": "news",
+      "title": "Nice est-il redevenu un candidat crédible à l’Europe?",
+      "message": "⚽ Nice est-il redevenu un candidat crédible à l’Europe?\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/clubs/ogc-nice/nice-est-il-redevenu-un-candidat-credible-a-l-europe_AV-202611200088.html",
+      "date": "2026-11-20T06:56:56.782474+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/mauricio-pochettino_DN-202108310539.html",
+      "type": "news",
+      "title": "Mauricio Pochettino",
+      "message": "⚽ Mauricio Pochettino\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/mauricio-pochettino_DN-202108310539.html",
+      "date": "2026-11-20T06:57:00.799292+00:00"
     }
   ]
 }

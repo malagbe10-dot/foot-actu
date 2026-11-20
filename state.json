@@ -43,7 +43,10 @@
     "result-565859",
     "news-https://rmcsport.bfmtv.com/football/equipe-de-france/video-ligue-des-nations-france-espagne-l-heure-de-la-reconquista_VN-202611200967.html",
     "news-https://rmcsport.bfmtv.com/football/bayern-de-munich_DN-201307180413.html",
-    "news-https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html"
+    "news-https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html",
+    "news-https://rmcsport.bfmtv.com/football/ligue-1/video-troyes-3-1-le-havre-tout-est-encore-instable-ismael-veut-y-croire_VN-202611200977.html",
+    "result-559622",
+    "result-564748"
   ],
   "history": [
     {
@@ -392,6 +395,28 @@
       "message": "⚽ Bayern: la tuile est confirmée pour Kane, gravement blessé à la cheville et absent plusieurs mois\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html",
       "date": "2026-11-20T22:37:18.057334+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/ligue-1/video-troyes-3-1-le-havre-tout-est-encore-instable-ismael-veut-y-croire_VN-202611200977.html",
+      "type": "news",
+      "title": "Troyes 3-1 Le Havre : \"Tout est encore instable\" Ismaël veut y croire",
+      "message": "⚽ Troyes 3-1 Le Havre : \"Tout est encore instable\" Ismaël veut y croire\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-1/video-troyes-3-1-le-havre-tout-est-encore-instable-ismael-veut-y-croire_VN-202611200977.html",
+      "date": "2026-11-20T23:04:00.246546+00:00"
+    },
+    {
+      "id": "result-559622",
+      "type": "score",
+      "title": "Troyes 3 - 1 Le Havre",
+      "message": "🏁 Score final – Ligue 1\n\nTroyes 3 - 1 Le Havre\n\n#Football #Ligue1",
+      "date": "2026-11-20T23:04:02.479326+00:00"
+    },
+    {
+      "id": "result-564748",
+      "type": "score",
+      "title": "Athletic 0 - 1 Espanyol",
+      "message": "🏁 Score final – Primera Division\n\nAthletic 0 - 1 Espanyol\n\n#Football #PrimeraDivision",
+      "date": "2026-11-20T23:04:05.176530+00:00"
     }
   ]
 }

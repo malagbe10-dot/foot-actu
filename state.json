@@ -5,7 +5,8 @@
     "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-a-quelle-heure-et-sur-quelle-chaine-tv-suivre-le-tirage-au-sort-des-quarts-de-finale-avec-la-france_AV-202611191059.html",
     "standings-FL1-2026-W47",
     "standings-PL-2026-W47",
-    "standings-PD-2026-W47"
+    "standings-PD-2026-W47",
+    "fixtures-2026-11-20"
   ],
   "history": [
     {
@@ -52,6 +53,13 @@
       "title": "Classement Primera Division",
       "message": "📊 Classement Primera Division (top 10)\n\n1. Barça – 33 pts\n2. Real Madrid – 30 pts\n3. Atleti – 28 pts\n4. Real Betis – 26 pts\n5. Real Sociedad – 22 pts\n6. Sevilla FC – 18 pts\n7. Athletic – 16 pts\n8. Villarreal – 15 pts\n9. Deportivo – 15 pts\n10. Santander – 14 pts\n\n#Football",
       "date": "2026-11-19T23:32:13.080321+00:00"
+    },
+    {
+      "id": "fixtures-2026-11-20",
+      "type": "fixtures",
+      "title": "Programme du 2026-11-20",
+      "message": "📅 Au programme aujourd'hui\n\n🕒 19:30 – Bayern vs 1. FC Köln\n🕒 19:45 – Troyes vs Le Havre\n🕒 20:00 – Athletic vs Espanyol\n\n#Football",
+      "date": "2026-11-20T00:43:57.229218+00:00"
     }
   ]
 }

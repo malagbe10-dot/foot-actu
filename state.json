@@ -12,7 +12,9 @@
     "news-https://rmcsport.bfmtv.com/football/major-league-soccer/fin-du-reve-pour-antoine-griezmann-orlando-elimine-en-barrage-de-la-mls_AN-202611200147.html",
     "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/ligue-des-nations-le-pire-et-le-meilleur-tirage-pour-la-france-en-quarts-de-finale_AV-202611200255.html",
     "news-https://rmcsport.bfmtv.com/football/clubs/ogc-nice/nice-est-il-redevenu-un-candidat-credible-a-l-europe_AV-202611200088.html",
-    "news-https://rmcsport.bfmtv.com/football/mauricio-pochettino_DN-202108310539.html"
+    "news-https://rmcsport.bfmtv.com/football/mauricio-pochettino_DN-202108310539.html",
+    "news-https://rmcsport.bfmtv.com/football/transferts/direct-mercato-suivez-en-live-toutes-les-infos-et-rumeurs-du-19-novembre-2026_LN-202611190209.html",
+    "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/direct-ligue-des-nations-quel-adversaire-pour-l-equipe-de-france-suivez-le-tirage-au-sort-des-quarts-de-finale-en-live_LN-202611200317.html"
   ],
   "history": [
     {
@@ -114,6 +116,22 @@
       "message": "⚽ Mauricio Pochettino\n\nSource : RMC Sport",
       "link": "https://rmcsport.bfmtv.com/football/mauricio-pochettino_DN-202108310539.html",
       "date": "2026-11-20T06:57:00.799292+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/transferts/direct-mercato-suivez-en-live-toutes-les-infos-et-rumeurs-du-19-novembre-2026_LN-202611190209.html",
+      "type": "news",
+      "title": "DIRECT. Mercato: accord Brunner-Monaco pour une prolongation",
+      "message": "⚽ DIRECT. Mercato: accord Brunner-Monaco pour une prolongation\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/transferts/direct-mercato-suivez-en-live-toutes-les-infos-et-rumeurs-du-19-novembre-2026_LN-202611190209.html",
+      "date": "2026-11-20T08:14:47.161828+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/ligue-des-nations/direct-ligue-des-nations-quel-adversaire-pour-l-equipe-de-france-suivez-le-tirage-au-sort-des-quarts-de-finale-en-live_LN-202611200317.html",
+      "type": "news",
+      "title": "DIRECT. Ligue des nations: quel adversaire pour l'équipe de France? Suivez le tirage au sort des quarts de finale en live",
+      "message": "⚽ DIRECT. Ligue des nations: quel adversaire pour l'équipe de France? Suivez le tirage au sort des quarts de finale en live\n\nSource : RMC Sport",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-des-nations/direct-ligue-des-nations-quel-adversaire-pour-l-equipe-de-france-suivez-le-tirage-au-sort-des-quarts-de-finale-en-live_LN-202611200317.html",
+      "date": "2026-11-20T08:14:50.960238+00:00"
     }
   ]
 }

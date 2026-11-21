@@ -249,6 +249,233 @@ def make_fixtures_image(todays, tz, day, path):
     img.save(path)
 
 
+# ---------- visuels générés (aucune photo de tiers) ----------
+BRAND = "FOOTBALL SPOTLIGHT"
+GREEN_D, GREEN_M, GREEN_L, WHITE, CHALK = (8, 52, 31), (11, 74, 43), (18, 98, 60), (255, 255, 255), (190, 230, 205)
+
+
+def _wrap(d, text, font, maxw):
+    lines, cur = [], ""
+    for w in text.split():
+        t = (cur + " " + w).strip()
+        if d.textlength(t, font=font) <= maxw:
+            cur = t
+        else:
+            if cur:
+                lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def make_score_card(c, path):
+    """Carte de score (fin de match ou but) : logos, score en grand, championnat."""
+    from PIL import Image, ImageDraw
+    W, H = 1080, 700
+    img = Image.new("RGB", (W, H), GREEN_M)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, 150], fill=GREEN_D)
+    d.text((W // 2, 75), c["label"], font=load_font(66), fill=WHITE, anchor="mm")
+    cy = 330
+    for side, team, cx in (("home", c["home"], 230), ("away", c["away"], 850)):
+        crest = fetch_crest(team.get("crest"), 150)
+        if crest:
+            img.paste(crest, (cx - crest.width // 2, cy - crest.height // 2 - 20), crest)
+        else:
+            d.ellipse([cx - 75, cy - 95, cx + 75, cy + 55], fill=GREEN_D, outline=CHALK, width=4)
+            d.text((cx, cy - 20), (team.get("tla") or team["name"][:3]).upper(), font=load_font(52), fill=WHITE, anchor="mm")
+        d.text((cx, cy + 115), team["name"], font=fit_font(d, team["name"], 340, 38), fill=WHITE, anchor="mm")
+    d.text((W // 2, cy - 10), f"{c['h']} - {c['a']}", font=load_font(120), fill=WHITE, anchor="mm")
+    d.text((W // 2, 560), c["comp"], font=load_font(32, False), fill=CHALK, anchor="mm")
+    d.text((W // 2, 640), c.get("brand", BRAND), font=load_font(30), fill=CHALK, anchor="mm")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path)
+
+
+THEMES = [
+    (("transfert", "mercato", "recrut", "signe", "prêt", "contrat", "prolong"), "a football player signing a contract at a desk in a club office, camera flashes"),
+    (("blessure", "blessé", "forfait", "absent", "indisponible"), "a football pitch at dusk with a lone ball and a medical bag on the grass, dramatic mood"),
+    (("but", "buteur", "marque", "score", "victoire", "gagne", "remporte", "succès"), "players celebrating a goal in a packed stadium, confetti and floodlights"),
+    (("entraîneur", "coach", "technicien", "limogé", "banc"), "a football coach silhouette on the touchline giving instructions, stadium lights behind"),
+    (("finale", "coupe", "trophée", "titre", "champion"), "a golden football trophy on a pedestal in a stadium with spotlights"),
+    (("arbitre", "var", "penalty", "carton", "expuls"), "a referee silhouette holding a card on a floodlit pitch"),
+    (("sélection", "équipe nationale", "mondial", "coupe du monde", "qualif", "bleus"), "a national team stadium with flags waving in the stands at night"),
+]
+
+
+def theme_prompt(title):
+    t = (title or "").lower()
+    scene = "a football stadium at night, bright floodlights, ball on the grass"
+    for keys, sc in THEMES:
+        if any(k in t for k in keys):
+            scene = sc
+            break
+    return ("cinematic football illustration, " + scene + ", dark green and blue tones, "
+            "no text, no letters, no logos, no real people, no faces, silhouettes only")
+
+
+def fetch_ai_background(title, size=1080):
+    """Illustration générée (service gratuit sans clé). Retourne une image PIL ou None si indisponible."""
+    from PIL import Image
+    import hashlib
+    seed = int(hashlib.md5((title or "").encode()).hexdigest()[:6], 16)
+    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(theme_prompt(title))
+           + f"?width={size}&height={size}&nologo=true&seed={seed}")
+    try:
+        im = Image.open(io.BytesIO(http_get(url, timeout=60))).convert("RGB")
+        return im.resize((size, size))
+    except Exception as e:  # noqa
+        log(f"[visuel] illustration IA indisponible, carte simple utilisée : {e}")
+        return None
+
+
+def make_news_card(c, path):
+    """Carte d'actualité : le titre en grand sur fond aux couleurs de la page."""
+    from PIL import Image, ImageDraw
+    W, H = 1080, 1080
+    img = Image.new("RGB", (W, H), GREEN_M)
+    bg = fetch_ai_background(c["title"]) if c.get("ai") else None
+    if bg is not None:
+        # voile sombre pour que le titre reste lisible sur l'illustration
+        img = Image.blend(bg, Image.new("RGB", (W, H), (4, 28, 17)), 0.55)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, 130], fill=GREEN_D)
+    d.text((W // 2, 65), c.get("brand", BRAND), font=load_font(46), fill=WHITE, anchor="mm")
+    size, lines = 76, []
+    while size >= 40:
+        f = load_font(size)
+        lines = _wrap(d, c["title"], f, W - 140)
+        if len(lines) * (size + 14) <= 640:
+            break
+        size -= 4
+    lines = lines[:8]
+    y = 160 + (680 - len(lines) * (size + 14)) // 2
+    for ln in lines:
+        d.text((W // 2, y), ln, font=load_font(size), fill=WHITE, anchor="mt")
+        y += size + 14
+    d.rounded_rectangle([60, 860, W - 60, 940], radius=18, fill=GREEN_L)
+    d.text((W // 2, 900), f"Source : {c['source']}", font=load_font(34, False), fill=CHALK, anchor="mm")
+    d.text((W // 2, 1010), "Actus, scores et direct du football", font=load_font(30, False), fill=CHALK, anchor="mm")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path)
+
+
+RED = (200, 30, 40)
+
+
+def _pitch(d, x0, y0, x1, y1):
+    """Terrain de football vu de dessus (dessiné)."""
+    d.rounded_rectangle([x0, y0, x1, y1], radius=14, fill=(22, 118, 66), outline=WHITE, width=4)
+    mx, my = (x0 + x1) // 2, (y0 + y1) // 2
+    d.line([mx, y0, mx, y1], fill=WHITE, width=3)
+    d.ellipse([mx - 60, my - 60, mx + 60, my + 60], outline=WHITE, width=3)
+    bw, bh, sw, sh = 130, 250, 50, 130
+    for sx, dirx in ((x0, 1), (x1, -1)):
+        d.rectangle([min(sx, sx + dirx * bw), my - bh // 2, max(sx, sx + dirx * bw), my + bh // 2], outline=WHITE, width=3)
+        d.rectangle([min(sx, sx + dirx * sw), my - sh // 2, max(sx, sx + dirx * sw), my + sh // 2], outline=WHITE, width=3)
+    return mx, my
+
+
+def make_event_card(c, path):
+    """But, penalty raté, carton rouge, VAR : schéma de terrain + joueur + minute + score."""
+    from PIL import Image, ImageDraw
+    W, H = 1080, 1080
+    img = Image.new("RGB", (W, H), GREEN_M)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, 150], fill=GREEN_D)
+    d.text((W // 2, 75), c["label"], font=fit_font(d, c["label"], 600, 70), fill=WHITE, anchor="mm")
+    d.rounded_rectangle([W - 230, 40, W - 40, 110], radius=18, fill=GREEN_L)
+    d.text((W - 135, 75), c["minute"], font=load_font(40), fill=WHITE, anchor="mm")
+    x0, y0, x1, y1 = 70, 190, W - 70, 640
+    mx, my = _pitch(d, x0, y0, x1, y1)
+    t = c["type"]
+    if t in ("goal", "penmiss"):
+        gx = x1 - 60 if c["side"] == "home" else x0 + 60  # l'équipe locale attaque à droite
+        d.ellipse([gx - 34, my - 34, gx + 34, my + 34], fill=WHITE, outline=GREEN_D, width=5)
+        d.regular_polygon((gx, my, 16), 5, fill=GREEN_D) if hasattr(d, "regular_polygon") else None
+        if t == "penmiss":
+            d.line([gx - 50, my - 50, gx + 50, my + 50], fill=RED, width=12)
+            d.line([gx - 50, my + 50, gx + 50, my - 50], fill=RED, width=12)
+    elif t == "red":
+        d.rounded_rectangle([mx - 55, my - 85, mx + 55, my + 85], radius=12, fill=RED, outline=WHITE, width=5)
+    else:  # var
+        d.rounded_rectangle([mx - 130, my - 70, mx + 130, my + 70], radius=18, fill=GREEN_D, outline=WHITE, width=5)
+        d.text((mx, my), "VAR", font=load_font(80), fill=WHITE, anchor="mm")
+    d.text((W // 2, 725), c["player"], font=fit_font(d, c["player"], W - 140, 76), fill=WHITE, anchor="mm")
+    sub = c["team"] + (f" · passe de {c['assist']}" if c.get("assist") else "")
+    d.text((W // 2, 800), sub, font=fit_font(d, sub, W - 140, 38, False), fill=CHALK, anchor="mm")
+    # ligne de score avec logos
+    cy = 895
+    for team, cx in ((c["home"], 190), (c["away"], 890)):
+        cr = fetch_crest(team.get("crest"), 90)
+        if cr:
+            img.paste(cr, (cx - cr.width // 2, cy - cr.height // 2), cr)
+        else:
+            d.ellipse([cx - 45, cy - 45, cx + 45, cy + 45], fill=GREEN_D, outline=CHALK, width=3)
+            d.text((cx, cy), team["name"][:3].upper(), font=load_font(30), fill=WHITE, anchor="mm")
+    d.text((W // 2, cy), f"{c['h']} - {c['a']}", font=load_font(96), fill=WHITE, anchor="mm")
+    d.text((W // 2, 985), f"{c['home']['name']}  ·  {c['away']['name']}", font=fit_font(d, f"{c['home']['name']}  ·  {c['away']['name']}", W - 120, 30, False), fill=CHALK, anchor="mm")
+    d.text((W // 2, 1035), f"{c['comp']}  |  {c.get('brand', BRAND)}", font=load_font(26, False), fill=CHALK, anchor="mm")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path)
+
+
+def make_table_card(c, path):
+    """Classement : tableau avec logos."""
+    from PIL import Image, ImageDraw
+    rows = c["rows"][:10]
+    W, top, rh = 1080, 230, 84
+    H = top + rh * len(rows) + 100
+    img = Image.new("RGB", (W, H), GREEN_M)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, top - 30], fill=GREEN_D)
+    d.text((W // 2, 70), "CLASSEMENT", font=load_font(60), fill=WHITE, anchor="mm")
+    d.text((W // 2, 140), c["comp"], font=fit_font(d, c["comp"], W - 100, 40, False), fill=CHALK, anchor="mm")
+    d.text((760, top - 12), "J", font=load_font(26), fill=CHALK, anchor="mm")
+    d.text((940, top - 12), "PTS", font=load_font(26), fill=CHALK, anchor="mm")
+    y = top + 14
+    for r in rows:
+        d.rounded_rectangle([36, y, W - 36, y + rh - 10], radius=14, fill=GREEN_L if r["pos"] % 2 else (14, 88, 52))
+        cy = y + (rh - 10) // 2
+        d.text((86, cy), str(r["pos"]), font=load_font(34), fill=WHITE, anchor="mm")
+        cr = fetch_crest(r.get("crest"), 54)
+        if cr:
+            img.paste(cr, (150 - cr.width // 2, cy - cr.height // 2), cr)
+        d.text((200, cy), r["name"], font=fit_font(d, r["name"], 450, 34), fill=WHITE, anchor="lm")
+        d.text((760, cy), str(r["played"]), font=load_font(32, False), fill=CHALK, anchor="mm")
+        d.text((940, cy), str(r["pts"]), font=load_font(40), fill=WHITE, anchor="mm")
+        y += rh
+    d.text((W // 2, H - 45), c.get("brand", BRAND), font=load_font(30), fill=CHALK, anchor="mm")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path)
+
+
+def render_card(p, cfg):
+    """Crée l'image d'une publication si elle a une carte demandée (et si c'est activé)."""
+    c = p.pop("card", None)
+    if not c or not cfg.get("images", {}).get(c["kind"], True) or not ensure_pillow():
+        return
+    c["brand"] = cfg.get("brand_name", BRAND).upper()
+    c["ai"] = bool(cfg.get("images", {}).get("ai", True))
+    rel = "cards/" + re.sub(r"[^A-Za-z0-9_-]", "_", p["id"])[:80] + ".png"
+    try:
+        {"news": make_news_card, "event": make_event_card, "table": make_table_card, "lineup": make_lineup_card}.get(c["kind"], make_score_card)(c, os.path.join(SITE_DIR, rel))
+        p["image"] = rel
+    except Exception as e:  # noqa
+        log(f"[visuel] échec de l'image : {e}")
+
+
+def clean_cards(keep=80):
+    d = os.path.join(SITE_DIR, "cards")
+    try:
+        files = sorted((os.path.join(d, f) for f in os.listdir(d)), key=os.path.getmtime)
+        for f in files[:-keep]:
+            os.remove(f)
+    except OSError:
+        pass
+
+
 def result_text(m):
     s = m["score"]["fullTime"]
     h = m["homeTeam"]["shortName"] or m["homeTeam"]["name"]
@@ -285,7 +512,8 @@ def build_posts(cfg, mode, state):
             detail = f"{summary}\n\n" if summary else ""
             posts.append({"id": n["id"], "type": "news", "title": title,
                           "message": f"🚨 {title}\n\n{detail}📰 Source : {n['source']}\n\n#Football #Actu",
-                          "link": n["link"]})
+                          "link": n["link"],
+                          "card": {"kind": "news", "title": title, "source": n["source"]}})
             count += 1
 
     if mode in ("scores", "all"):
@@ -309,7 +537,10 @@ def build_posts(cfg, mode, state):
                     comp = m["competition"]["name"]
                     journee = f" · Journée {m['matchday']}" if m.get("matchday") else ""
                     posts.append({"id": f"result-{m['id']}", "type": "score", "title": line,
-                                  "message": f"⏱️ TERMINÉ\n\n⚽ {line.upper()}\n\n{result_text(m)}\n🏆 {comp}{journee}\n\n#Football #{comp.replace(' ', '')}"})
+                                  "message": f"⏱️ TERMINÉ\n\n⚽ {line.upper()}\n\n{result_text(m)}\n🏆 {comp}{journee}\n\n#Football #{comp.replace(' ', '')}",
+                                  "card": {"kind": "score", "label": "SCORE FINAL", "comp": comp,
+                                           "home": m["homeTeam"], "away": m["awayTeam"],
+                                           "h": m["score"]["fullTime"]["home"], "a": m["score"]["fullTime"]["away"]}})
             # programme du jour (une fois par jour)
             today = datetime.now(tz).date()
             todays = [m for m in matches
@@ -357,7 +588,11 @@ def build_posts(cfg, mode, state):
                 ecart = f"{gap} point(s) d'avance sur {sn}" if gap else f"à égalité de points avec {sn}"
                 detail = f"\n\n📌 {ln} est en tête avec {lead['points']} points en {lead['playedGames']} matchs, {ecart}."
             posts.append({"id": pid, "type": "standings", "title": f"Classement {name}",
-                          "message": f"📊 Classement {name} (top 10)\n\n" + "\n".join(rows) + detail + "\n\n#Football"})
+                          "message": f"📊 Classement {name} (top 10)\n\n" + "\n".join(rows) + detail + "\n\n#Football",
+                          "card": {"kind": "table", "comp": name,
+                                   "rows": [{"pos": r["position"], "name": r["team"]["shortName"] or r["team"]["name"],
+                                             "crest": r["team"].get("crest"), "played": r["playedGames"], "pts": r["points"]}
+                                            for r in table]}})
     return posts
 
 
@@ -443,8 +678,11 @@ def fetch_live_events(cfg, state):
     now = datetime.now(timezone.utc)
     h0, h1 = live_cfg.get("hours_utc", [12, 23])
     if not (h0 <= now.hour <= h1):
-        log(f"[direct] hors fenêtre horaire ({h0}h-{h1}h UTC) : aucune requête")
+        if not state.get("_out_logged"):
+            log(f"[direct] hors fenêtre horaire ({h0}h-{h1}h UTC) : pause jusqu'à {h0}h")
+            state["_out_logged"] = True
         return []
+    state.pop("_out_logged", None)
     lc = state.setdefault("live_calls", {"date": "", "n": 0, "last": ""})
     if lc.get("date") != now.date().isoformat():
         lc.update({"date": now.date().isoformat(), "n": 0})
@@ -502,6 +740,20 @@ def fetch_live_events(cfg, state):
                     state["posted_ids"].append(eid)
                 continue
             msg, sc = live_event_post(fx, e, kind, (gh, ga))
+            shooter_home = (tid == home_id)
+            if kind == "goal" and e.get("detail") == "Own Goal":
+                shooter_home = not shooter_home
+            lab = {"goal": "BUUUT !", "penmiss": "PENALTY RATÉ", "red": "CARTON ROUGE", "var": "VAR"}[kind]
+            if kind == "goal" and e.get("detail") == "Own Goal":
+                lab = "CONTRE SON CAMP"
+            elif kind == "goal" and e.get("detail") == "Penalty":
+                lab = "BUT SUR PENALTY"
+            card = {"kind": "event", "type": kind, "label": lab, "minute": _minute(e),
+                    "player": (e.get("player") or {}).get("name") or (e.get("team") or {}).get("name", ""),
+                    "assist": (e.get("assist") or {}).get("name"), "team": (e.get("team") or {}).get("name", ""),
+                    "side": "home" if shooter_home else "away", "comp": fx["league"]["name"], "h": gh, "a": ga,
+                    "home": {"name": fx["teams"]["home"]["name"], "crest": fx["teams"]["home"].get("logo")},
+                    "away": {"name": fx["teams"]["away"]["name"], "crest": fx["teams"]["away"].get("logo")}}
             if kind == "goal":
                 hn, an = fx["teams"]["home"]["name"], fx["teams"]["away"]["name"]
                 if goal_seen(state, hn, an, gh + ga):
@@ -513,8 +765,156 @@ def fetch_live_events(cfg, state):
                     msg = f"{detail}.\n\n📊 {sc}\n\n#Football #Direct"
                 else:
                     goal_mark(state, hn, an, gh + ga)
-            posts.append({"id": eid, "type": "event", "title": sc, "message": msg})
+            posts.append({"id": eid, "type": "event", "title": sc, "message": msg, "card": card})
     state["live_fixtures"] = seen_fx[-300:]
+    return posts
+
+
+# ---------- compositions d'équipe (API-Football) ----------
+POS_FR = {"G": "Gardien", "D": "Défenseurs", "M": "Milieux", "F": "Attaquants"}
+
+
+def _short_name(n):
+    parts = (n or "").replace(".", ". ").split()
+    return (parts[-1] if parts else "?")[:12]
+
+
+def make_lineup_card(c, path):
+    """Terrain dessiné avec les deux onzes de départ, placés selon la formation."""
+    from PIL import Image, ImageDraw
+    W, H = 1080, 1500
+    img = Image.new("RGB", (W, H), GREEN_M)
+    d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, W, 170], fill=GREEN_D)
+    d.text((W // 2, 55), "COMPOSITIONS", font=load_font(56), fill=WHITE, anchor="mm")
+    title = f"{c['home']['name']}  vs  {c['away']['name']}"
+    d.text((W // 2, 110), title, font=fit_font(d, title, W - 80, 40), fill=CHALK, anchor="mm")
+    d.text((W // 2, 150), f"{c['comp']}  ·  {c['time']}", font=load_font(26, False), fill=CHALK, anchor="mm")
+    x0, y0, x1, y1 = 50, 200, W - 50, 1400
+    d.rounded_rectangle([x0, y0, x1, y1], radius=14, fill=(22, 118, 66), outline=WHITE, width=4)
+    my, mx = (y0 + y1) // 2, (x0 + x1) // 2
+    d.line([x0, my, x1, my], fill=WHITE, width=3)
+    d.ellipse([mx - 90, my - 90, mx + 90, my + 90], outline=WHITE, width=3)
+    for gy, dy in ((y0, 1), (y1, -1)):
+        d.rectangle([mx - 190, min(gy, gy + dy * 160), mx + 190, max(gy, gy + dy * 160)], outline=WHITE, width=3)
+        d.rectangle([mx - 90, min(gy, gy + dy * 60), mx + 90, max(gy, gy + dy * 60)], outline=WHITE, width=3)
+    half = (y1 - y0) // 2
+    for side in ("home", "away"):
+        t = c[side]
+        rows = {}
+        for p in t["players"]:
+            rows.setdefault(p["row"], []).append(p)
+        nrows = max(rows) if rows else 1
+        fill = WHITE if side == "home" else (250, 204, 21)
+        for r, plist in rows.items():
+            plist.sort(key=lambda p: p["col"])
+            frac = (r - 0.5) / nrows
+            y = (y1 - 40 - frac * (half - 60)) if side == "home" else (y0 + 40 + frac * (half - 60))
+            n = len(plist)
+            for i, p in enumerate(plist):
+                x = x0 + (i + 0.5) * (x1 - x0) / n
+                d.ellipse([x - 30, y - 30, x + 30, y + 30], fill=fill, outline=GREEN_D, width=4)
+                d.text((x, y), str(p["num"]), font=load_font(28), fill=GREEN_D, anchor="mm")
+                nm = _short_name(p["name"])
+                d.text((x, y + 46), nm, font=fit_font(d, nm, (x1 - x0) / n - 8, 26), fill=WHITE, anchor="mm",
+                       stroke_width=3, stroke_fill=GREEN_D)
+        tag = f"{t['name']} · {t['formation']}" if t.get("formation") else t["name"]
+        ty = y1 + 40 if side == "home" else y0 - 22
+        if side == "away":
+            ty = 182
+        d.text((x0 + 8, y1 + 40) if side == "home" else (x0 + 8, 182), tag, font=fit_font(d, tag, 600, 30),
+               fill=fill, anchor="lm")
+    d.text((W // 2, 1465), c.get("brand", BRAND), font=load_font(30), fill=CHALK, anchor="mm")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path)
+
+
+def fetch_lineups(cfg, state):
+    """Compositions publiées environ 50, 30 puis 12 min avant le coup d'envoi (quota dédié)."""
+    key = os.environ.get("API_FOOTBALL_KEY", "")
+    lcfg = cfg.get("live", {}).get("lineups", {})
+    if not key or not lcfg.get("enabled", True):
+        return []
+    now = datetime.now(timezone.utc)
+    h0, h1 = cfg.get("live", {}).get("hours_utc", [12, 23])
+    if not (max(0, h0 - 2) <= now.hour <= h1):
+        return []
+    today = now.date().isoformat()
+    lc = state.setdefault("lineup_calls", {"date": "", "n": 0, "last": ""})
+    if lc.get("date") != today:
+        lc.update({"date": today, "n": 0})
+    cap = lcfg.get("max_calls_per_day", 30)
+    if lc["n"] >= cap:
+        return []
+    if lc.get("last") and (now - datetime.fromisoformat(lc["last"])).total_seconds() < 240:
+        return []
+    plan = state.setdefault("lineup_plan", {"date": "", "fixtures": [], "tries": {}})
+    leagues = set(cfg.get("live", {}).get("league_ids") or DEFAULT_LIVE_LEAGUES)
+    if plan.get("date") != today:
+        try:
+            data = apif_get(f"/fixtures?date={today}", key)
+        except Exception as e:  # noqa
+            log(f"[compositions] erreur API: {e}")
+            return []
+        lc["n"] += 1
+        plan.update({"date": today, "tries": {}, "fixtures": [
+            {"id": f["fixture"]["id"], "ts": f["fixture"]["timestamp"], "comp": f["league"]["name"],
+             "home": f["teams"]["home"]["name"], "away": f["teams"]["away"]["name"]}
+            for f in data.get("response", []) if f["league"]["id"] in leagues]})
+        log(f"[compositions] {len(plan['fixtures'])} match(s) suivis aujourd'hui")
+        return []
+    marks = lcfg.get("minutes_before", [50, 30, 12])
+    posts = []
+    for f in plan["fixtures"]:
+        fid = str(f["id"])
+        if f"lineup-{fid}" in state["posted_ids"]:
+            continue
+        left = (f["ts"] - now.timestamp()) / 60
+        if left <= 0 or left > marks[0]:
+            continue
+        step = sum(1 for m in marks if left <= m)  # 1, 2 ou 3 : étape atteinte
+        if plan["tries"].get(fid, 0) >= step or lc["n"] >= cap:
+            continue
+        plan["tries"][fid] = step
+        lc["n"] += 1
+        lc["last"] = now.isoformat()
+        try:
+            res = apif_get(f"/fixtures/lineups?fixture={fid}", key).get("response", [])
+        except Exception as e:  # noqa
+            log(f"[compositions] erreur API: {e}")
+            continue
+        if len(res) < 2:
+            continue
+        teams = []
+        for t in res:
+            pl = []
+            for it in t.get("startXI", []):
+                p = it["player"]
+                try:
+                    r_, c_ = (int(x) for x in (p.get("grid") or "1:1").split(":"))
+                except ValueError:
+                    r_, c_ = 1, 1
+                pl.append({"num": p.get("number"), "name": p.get("name"), "row": r_, "col": c_, "pos": p.get("pos")})
+            teams.append({"name": t["team"]["name"], "crest": t["team"].get("logo"),
+                          "formation": t.get("formation"), "coach": (t.get("coach") or {}).get("name"), "players": pl})
+        if not all(t["players"] for t in teams):
+            continue
+        ko = datetime.fromtimestamp(f["ts"], timezone.utc).strftime("%H:%M UTC")
+        lines = [f"📋 COMPOSITIONS – {teams[0]['name']} vs {teams[1]['name']}", f"🏆 {f['comp']} · ⏰ {ko}", ""]
+        for icon, t in (("🏠", teams[0]), ("✈️", teams[1])):
+            lines.append(f"{icon} {t['name']}" + (f" ({t['formation']})" if t.get("formation") else ""))
+            for pos in ("G", "D", "M", "F"):
+                names = [f"{p['name']}" for p in sorted(t["players"], key=lambda p: (p["row"], p["col"])) if p["pos"] == pos]
+                if names:
+                    lines.append(f"{POS_FR[pos]} : " + ", ".join(names))
+            if t.get("coach"):
+                lines.append(f"🧑‍💼 Entraîneur : {t['coach']}")
+            lines.append("")
+        lines.append(f"#Football #{f['comp'].replace(' ', '')}")
+        posts.append({"id": f"lineup-{fid}", "type": "event", "title": f"Compositions {teams[0]['name']} - {teams[1]['name']}",
+                      "message": "\n".join(lines),
+                      "card": {"kind": "lineup", "comp": f["comp"], "time": ko, "home": teams[0], "away": teams[1]}})
+        break  # une composition à la fois (économie de requêtes)
     return posts
 
 
@@ -626,7 +1026,9 @@ def fetch_fd_live_goals(cfg, state):
         who = home if h > prev[0] else away
         msg = (f"⚽ BUUUT ! {who} marque.\n\n📊 {home} {h} - {a} {away}\n🏆 {comp}\n\n"
                f"#Football #{comp.replace(' ', '')} #Direct")
-        posts.append({"id": f"fdgoal-{mid}-{h}-{a}", "type": "event", "title": f"{home} {h} - {a} {away}", "message": msg})
+        posts.append({"id": f"fdgoal-{mid}-{h}-{a}", "type": "event", "title": f"{home} {h} - {a} {away}", "message": msg,
+                      "card": {"kind": "goal", "label": "BUUUT !", "comp": comp,
+                               "home": m["homeTeam"], "away": m["awayTeam"], "h": h, "a": a}})
     if len(scores) > 400:
         for k in list(scores)[:100]:
             scores.pop(k, None)
@@ -721,7 +1123,7 @@ def run_once(args, cfg, state, mode):
 
     if mode in ("all", "live"):
         live_cfg = cfg.get("live", {})
-        evs = fetch_fd_live_goals(cfg, state) + fetch_live_events(cfg, state)
+        evs = fetch_lineups(cfg, state) + fetch_fd_live_goals(cfg, state) + fetch_live_events(cfg, state)
         evs = [p for p in evs if p["id"] not in state["posted_ids"]]
         ev_today = sum(1 for h in state["history"]
                        if h.get("date", "")[:10] == today and h.get("type") == "event")
@@ -732,6 +1134,7 @@ def run_once(args, cfg, state, mode):
         log(f"{len(posts)} nouvelle(s) publication(s) à traiter")
 
     for p in posts:
+        render_card(p, cfg)
         if args.dry_run:
             log(f"--- [SIMULATION] {p['type']} ---\n{p['message']}\n{p.get('link','')}\n"
                 + (f"[image : docs/{p['image']}]\n" if p.get("image") else ""))
@@ -753,6 +1156,7 @@ def run_once(args, cfg, state, mode):
 
     state["posted_ids"] = state["posted_ids"][-2000:]
     state["history"] = state["history"][-200:]
+    clean_cards(cfg.get("images", {}).get("keep", 80))
     if not args.dry_run:
         save_json(STATE_FILE, state)
     build_site(cfg, state)

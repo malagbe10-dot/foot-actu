@@ -66,7 +66,11 @@
     "news-https://rmcsport.bfmtv.com/football/ligue-1/lens-toulouse-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-match-de-ligue-1-en-direct_AN-202611210057.html",
     "news-https://rmcsport.bfmtv.com/football/premier-league/newcastle-arsenal-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-premier-league-en-direct_AN-202611210064.html",
     "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253459/milagro-sarral.html",
-    "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253303/necesidad-central-lateral.html"
+    "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253303/necesidad-central-lateral.html",
+    "news-https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
+    "news-https://www.skysports.com/darts/news/12040/13614374/michael-van-gerwen-preparing-for-the-worst-as-he-faces-tom-sykes-in-grand-slam-of-darts-quarter-finals",
+    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253605/no-hay-dos-tres-athletic.html",
+    "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253600/juegan-4-encuentros-sabado-st-andreu-recibe-madrileno-europa-visita-aguilas.html"
   ],
   "history": [
     {
@@ -593,6 +597,38 @@
       "message": "🚨 Besoin central... ou secondaire\n\nLe mercato d’hiver approche et le recrutement d’un défenseur central apparaît à nouveau comme le principal besoin du Barça. C'était déjà le cas cet été, a priori avec l'attaquant de pointe, mais finalement personne n'est arrivé pour occuper ce poste.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
       "link": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253303/necesidad-central-lateral.html",
       "date": "2026-11-21T05:23:53.902141+00:00"
+    },
+    {
+      "id": "news-https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
+      "type": "news",
+      "title": "Huées, blessures et sceptiques : le parcours de White pour revenir au sommet",
+      "message": "🚨 Huées, blessures et sceptiques : le parcours de White pour revenir au sommet\n\nLorsque Ben White s'est éloigné après avoir marqué le troisième but de l'Angleterre contre les championnes du monde espagnoles, il ne s'agissait pas seulement d'un but qui s'est avéré être celui de la victoire dans un match exceptionnel.\n\n📰 Source : BBC Sport\n\n#Football #Actu",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-21T06:22:39.985893+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/darts/news/12040/13614374/michael-van-gerwen-preparing-for-the-worst-as-he-faces-tom-sykes-in-grand-slam-of-darts-quarter-finals",
+      "type": "news",
+      "title": "Van Gerwen « se prépare au pire » alors qu'il affronte Sykes en quarts de finale du Grand Slam",
+      "message": "🚨 Van Gerwen « se prépare au pire » alors qu'il affronte Sykes en quarts de finale du Grand Slam\n\nMichael van Gerwen s’est qualifié pour son premier quart de finale de tournoi majeur depuis plus d’un an, mais il est confronté à un adversaire auquel il ne s’attendait probablement pas.\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/darts/news/12040/13614374/michael-van-gerwen-preparing-for-the-worst-as-he-faces-tom-sykes-in-grand-slam-of-darts-quarter-finals",
+      "date": "2026-11-21T06:22:42.631797+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253605/no-hay-dos-tres-athletic.html",
+      "type": "news",
+      "title": "Jamais deux sans trois pour l’Athletic",
+      "message": "🚨 Jamais deux sans trois pour l’Athletic\n\nLors de la conférence de presse d’hier soir à San Mamés, qui précédait le match, Terzic a évité de répondre de manière concrète à la question de savoir s’il était possible de faire jouer Canales et Sancet ensemble dans le même onze de départ, une fois que ce dernier se sera remis de sa blessure.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253605/no-hay-dos-tres-athletic.html",
+      "date": "2026-11-21T06:22:45.030368+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253600/juegan-4-encuentros-sabado-st-andreu-recibe-madrileno-europa-visita-aguilas.html",
+      "type": "news",
+      "title": "Quatre matchs se déroulent ce samedi : le St. Andreu reçoit le Madrileño et l'Europa se rend à Águilas",
+      "message": "🚨 Quatre matchs se déroulent ce samedi : le St. Andreu reçoit le Madrileño et l'Europa se rend à Águilas\n\nUne ambiance de gala se prépare pour accueillir ce match contre l’Atlético Madrileño au stade Narcís Sala, lors de l’inauguration du terrain en gazon synthétique, après son « exil » aux installations de Can Dragó et son dernier match à domicile contre Teruel au stade Palamós-Costa Brava.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253600/juegan-4-encuentros-sabado-st-andreu-recibe-madrileno-europa-visita-aguilas.html",
+      "date": "2026-11-21T06:22:47.356209+00:00"
     }
   ],
   "fd_scores": {}

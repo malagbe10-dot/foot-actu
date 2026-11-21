@@ -50,7 +50,11 @@
     "fixtures-2026-11-21",
     "standings-SA-2026-W47",
     "standings-BL1-2026-W47",
-    "standings-PPL-2026-W47"
+    "standings-PPL-2026-W47",
+    "result-555087",
+    "news-https://as.com/futbol/fotorrelato/los-11-entrenadores-que-mas-equipos-han-dirigido-en-primera-division-en-los-ultimos-50-anos-f202611-f/",
+    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253604/portada-md-bizkaia-araba-hoy-sabado.html",
+    "news-https://as.com/futbol/fotorrelato/real-madrid-celta-jugadores-que-han-vestido-ambas-camisetas-f202611-f/"
   ],
   "history": [
     {
@@ -450,6 +454,37 @@
       "title": "Classement Primeira Liga",
       "message": "📊 Classement Primeira Liga (top 10)\n\n🥇 Porto – 33 pts\n🥈 SL Benfica – 28 pts\n🥉 Sporting CP – 24 pts\n4. Santa Clara – 21 pts\n5. Arouca – 20 pts\n6. Acad. Viseu – 20 pts\n7. Gil Vicente – 18 pts\n8. Braga – 17 pts\n9. Moreirense – 14 pts\n10. Famalicão – 13 pts\n\n📌 Porto est en tête avec 33 points en 11 matchs, 5 point(s) d'avance sur SL Benfica.\n\n#Football",
       "date": "2026-11-21T00:48:23.174283+00:00"
+    },
+    {
+      "id": "result-555087",
+      "type": "score",
+      "title": "São Paulo 0 - 1 Fluminense",
+      "message": "⏱️ TERMINÉ\n\n⚽ SÃO PAULO 0 - 1 FLUMINENSE\n\n✅ Victoire de Fluminense\n🏆 Campeonato Brasileiro Série A · Journée 35\n\n#Football #CampeonatoBrasileiroSérieA",
+      "date": "2026-11-21T02:00:58.458392+00:00"
+    },
+    {
+      "id": "news-https://as.com/futbol/fotorrelato/los-11-entrenadores-que-mas-equipos-han-dirigido-en-primera-division-en-los-ultimos-50-anos-f202611-f/",
+      "type": "news",
+      "title": "Les 11 entraîneurs qui ont dirigé le plus d’équipes en première division au cours des 50 dernières années",
+      "message": "🚨 Les 11 entraîneurs qui ont dirigé le plus d’équipes en première division au cours des 50 dernières années\n\nDe Marcel Domingo à Mendilibar : les entraîneurs des 50 dernières années ayant dirigé le plus d’équipes en première division.\n\n📰 Source : AS\n\n#Football #Actu",
+      "link": "https://as.com/futbol/fotorrelato/los-11-entrenadores-que-mas-equipos-han-dirigido-en-primera-division-en-los-ultimos-50-anos-f202611-f/",
+      "date": "2026-11-21T02:01:00.727391+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253604/portada-md-bizkaia-araba-hoy-sabado.html",
+      "type": "news",
+      "title": "Une du MD Bizkaia-Araba d’aujourd’hui, samedi",
+      "message": "🚨 Une du MD Bizkaia-Araba d’aujourd’hui, samedi\n\nDéfaite de l'Athletic à San Mamés. L'Espanyol d'Eder Sarabia s'est imposé face aux Lions sur le score de 0-1. Les Rouge et Blanc n’ont pas cessé d’essayer, mais ils n’ont pas réussi à trouver le chemin des filets.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253604/portada-md-bizkaia-araba-hoy-sabado.html",
+      "date": "2026-11-21T02:01:02.773633+00:00"
+    },
+    {
+      "id": "news-https://as.com/futbol/fotorrelato/real-madrid-celta-jugadores-que-han-vestido-ambas-camisetas-f202611-f/",
+      "type": "news",
+      "title": "Real Madrid-Celta : les joueurs qui ont porté les deux maillots",
+      "message": "🚨 Real Madrid-Celta : les joueurs qui ont porté les deux maillots\n\nDécouvrez quels joueurs ont porté le maillot du Real Madrid et du Celta de Vigo à un moment de leur carrière professionnelle. Alberty, Michel Salgado, Núñez…\n\n📰 Source : AS\n\n#Football #Actu",
+      "link": "https://as.com/futbol/fotorrelato/real-madrid-celta-jugadores-que-han-vestido-ambas-camisetas-f202611-f/",
+      "date": "2026-11-21T02:01:05.236124+00:00"
     }
   ],
   "fd_scores": {}

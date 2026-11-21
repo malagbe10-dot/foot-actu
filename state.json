@@ -82,7 +82,11 @@
     "news-https://rmcsport.bfmtv.com/football/liga/mort-de-jesus-de-miguel-premiere-apparition-emouvante-du-gardien-d-andorre-jesus-owono-depuis-le-drame_AN-202611210211.html",
     "news-https://rmcsport.bfmtv.com/football/liga/ses-coequipiers-n-avaient-jamais-vu-un-talent-pareil-l-ascension-fulgurante-de-diomande-d-une-chambre-partagee-jusqu-au-real-en-moins-de-deux-ans_AV-202611210123.html",
     "news-https://www.footmercato.net/a5973665784569959412-antonio-conte-se-lache-et-dezingue-manchester-united",
-    "news-https://www.mundodeportivo.com/futbol/rayo-vallecano/20261121/1004253615/rayo-vallecano-devolvera-dinero-destierro-butarque.html"
+    "news-https://www.mundodeportivo.com/futbol/rayo-vallecano/20261121/1004253615/rayo-vallecano-devolvera-dinero-destierro-butarque.html",
+    "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-12/",
+    "news-https://www.footmercato.net/a8120659692075499701-fc-porto-le-pire-but-contre-son-camp-de-lhistoire-signe-francisco-moura",
+    "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-11/",
+    "news-https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/"
   ],
   "history": [
     {
@@ -737,6 +741,38 @@
       "message": "🚨 Le Rayo Vallecano remboursera l’argent de l’exil à Butarque\n\nCe samedi, le Rayo Vallecano accueille Valence au stade de Vallecas. Et tout indique que cela se fera dans un climat de totale sérénité sur le plan de l’ambiance et dans le cadre des négociations menées par le club avec les représentants et les supporters du club, toujours dans le but de…\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
       "link": "https://www.mundodeportivo.com/futbol/rayo-vallecano/20261121/1004253615/rayo-vallecano-devolvera-dinero-destierro-butarque.html",
       "date": "2026-11-21T07:37:00.196600+00:00"
+    },
+    {
+      "id": "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-12/",
+      "type": "news",
+      "title": "Mercato, en direct : rumeurs, arrivées et départs en Liga, Premier League, Serie A...",
+      "message": "🚨 Mercato, en direct : rumeurs, arrivées et départs en Liga, Premier League, Serie A...\n\nSuivez en direct les dernières actualités du mercato du 21 novembre 2026 : départs, arrivées...\n\n📰 Source : AS\n\n#Football #Actu",
+      "link": "https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-12/",
+      "date": "2026-11-21T08:07:09.949574+00:00"
+    },
+    {
+      "id": "news-https://www.footmercato.net/a8120659692075499701-fc-porto-le-pire-but-contre-son-camp-de-lhistoire-signe-francisco-moura",
+      "type": "news",
+      "title": "FC Porto : le pire but contre son camp de l’histoire signé Francisco Moura !",
+      "message": "🚨 FC Porto : le pire but contre son camp de l’histoire signé Francisco Moura !\n\nEn Coupe du Portugal face à l’USC Paredes, le latéral gauche du FC Porto Francisco Moura a livré l’une des séquences les plus improbables de la saison en inscrivant un but contre son camp lunaire. (…)\n\n📰 Source : Foot Mercato\n\n#Football #Actu",
+      "link": "https://www.footmercato.net/a8120659692075499701-fc-porto-le-pire-but-contre-son-camp-de-lhistoire-signe-francisco-moura",
+      "date": "2026-11-21T08:07:12.513740+00:00"
+    },
+    {
+      "id": "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-11/",
+      "type": "news",
+      "title": "Mercato, en direct : rumeurs, arrivées et départs en Liga, Premier League, Serie A...",
+      "message": "🚨 Mercato, en direct : rumeurs, arrivées et départs en Liga, Premier League, Serie A...\n\nSuivez en direct les dernières actualités du mercato du 20 novembre 2026 : départs, arrivées...\n\n📰 Source : AS\n\n#Football #Actu",
+      "link": "https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-11/",
+      "date": "2026-11-21T08:07:14.441923+00:00"
+    },
+    {
+      "id": "news-https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/",
+      "type": "news",
+      "title": "On demande à Gattuso s’il s’inquiète que ses joueurs passent toute la nuit à jouer à GTA VI : sa réponse vaut le détour",
+      "message": "🚨 On demande à Gattuso s’il s’inquiète que ses joueurs passent toute la nuit à jouer à GTA VI : sa réponse vaut le détour\n\nL’entraîneur de la Lazio, légende mythique du football italien, a été interrogé lors d’une conférence de presse sur ce problème potentiel et sur la façon dont il l’évalue.\n\n📰 Source : AS\n\n#Football #Actu",
+      "link": "https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/",
+      "date": "2026-11-21T08:07:16.581943+00:00"
     }
   ],
   "fd_scores": {}

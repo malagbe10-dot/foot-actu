@@ -114,7 +114,15 @@
     "fdgoal-564755-3-1",
     "fdgoal-565865-1-0",
     "ev-1575223-0-25-goal-25926",
-    "fdgoal-560650-1-0"
+    "fdgoal-560650-1-0",
+    "fdgoal-565858-1-1",
+    "ev-1557471-0-5-goal-8598",
+    "ev-1557471-1-13-goal-184226",
+    "ev-1557476-0-15-goal-465310",
+    "ev-1575223-1-41-penmiss-726",
+    "ev-1575223-2-44-penmiss-25926",
+    "ev-1575225-6-41-goal-951",
+    "fdgoal-558525-2-0"
   ],
   "history": [
     {
@@ -1025,6 +1033,70 @@
       "message": "⚽ BUUUT ! Coventry City marque.\n\n📊 Coventry City 1 - 0 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
       "image": "cards/fdgoal-560650-1-0.png",
       "date": "2026-11-21T15:11:25.241047+00:00"
+    },
+    {
+      "id": "fdgoal-565858-1-1",
+      "type": "event",
+      "title": "Union Berlin 1 - 1 RB Leipzig",
+      "message": "⚽ BUUUT ! Union Berlin marque.\n\n📊 Union Berlin 1 - 1 RB Leipzig\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565858-1-1.png",
+      "date": "2026-11-21T15:17:07.785262+00:00"
+    },
+    {
+      "id": "ev-1557471-0-5-goal-8598",
+      "type": "event",
+      "title": "Coventry 1 - 0 Crystal Palace",
+      "message": "ℹ️ Détails du but (5') : Taiwo Awoniyi (Coventry), passe décisive de Jack Rudoni.\n\n📊 Coventry 1 - 0 Crystal Palace\n\n#Football #Direct",
+      "image": "cards/ev-1557471-0-5-goal-8598.png",
+      "date": "2026-11-21T15:18:07.143641+00:00"
+    },
+    {
+      "id": "ev-1557471-1-13-goal-184226",
+      "type": "event",
+      "title": "Coventry 1 - 1 Crystal Palace",
+      "message": "⚽ BUUUT ! 13'\n\nYeremy Pino (Crystal Palace) marque. Passe décisive de Jörgen Strand Larsen.\n\n📊 Coventry 1 - 1 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/ev-1557471-1-13-goal-184226.png",
+      "date": "2026-11-21T15:18:10.633465+00:00"
+    },
+    {
+      "id": "ev-1557476-0-15-goal-465310",
+      "type": "event",
+      "title": "Tottenham 1 - 0 Ipswich",
+      "message": "⚽ BUUUT ! 15'\n\n Lucá James Williams-Barnett (Tottenham) marque. Passe décisive de Pedro Porro.\n\n📊 Tottenham 1 - 0 Ipswich\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/ev-1557476-0-15-goal-465310.png",
+      "date": "2026-11-21T15:18:13.435716+00:00"
+    },
+    {
+      "id": "ev-1575223-1-41-penmiss-726",
+      "type": "event",
+      "title": "Eintracht Frankfurt 1 - 0 1899 Hoffenheim",
+      "message": "❌ PENALTY RATÉ ! 41'\n\nAndrej Kramarić (1899 Hoffenheim) manque son penalty.\n\n📊 Eintracht Frankfurt 1 - 0 1899 Hoffenheim\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575223-1-41-penmiss-726.png",
+      "date": "2026-11-21T15:18:16.776258+00:00"
+    },
+    {
+      "id": "ev-1575223-2-44-penmiss-25926",
+      "type": "event",
+      "title": "Eintracht Frankfurt 1 - 0 1899 Hoffenheim",
+      "message": "❌ PENALTY RATÉ ! 44'\n\nJonathan Burkardt (Eintracht Frankfurt) manque son penalty.\n\n📊 Eintracht Frankfurt 1 - 0 1899 Hoffenheim\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575223-2-44-penmiss-25926.png",
+      "date": "2026-11-21T15:18:19.989226+00:00"
+    },
+    {
+      "id": "ev-1575225-6-41-goal-951",
+      "type": "event",
+      "title": "Union Berlin 1 - 1 RB Leipzig",
+      "message": "ℹ️ Détails du but (41') : Michel Aebischer (Union Berlin).\n\n📊 Union Berlin 1 - 1 RB Leipzig\n\n#Football #Direct",
+      "image": "cards/ev-1575225-6-41-goal-951.png",
+      "date": "2026-11-21T15:18:23.014155+00:00"
+    },
+    {
+      "id": "fdgoal-558525-2-0",
+      "type": "event",
+      "title": "Como 1907 2 - 0 Cagliari",
+      "message": "⚽ BUUUT ! Como 1907 marque.\n\n📊 Como 1907 2 - 0 Cagliari\n🏆 Serie A\n\n#Football #SerieA #Direct",
+      "image": "cards/fdgoal-558525-2-0.png",
+      "date": "2026-11-21T15:23:35.421565+00:00"
     }
   ],
   "fd_scores": {
@@ -1037,7 +1109,7 @@
       1
     ],
     "558525": [
-      1,
+      2,
       0
     ],
     "558528": [
@@ -1045,7 +1117,7 @@
       0
     ],
     "565858": [
-      0,
+      1,
       1
     ],
     "565860": [
@@ -1070,17 +1142,21 @@
     ],
     "560650": [
       1,
-      0
+      1
     ],
     "560647": [
       0,
       0
     ],
     "560648": [
-      0,
+      1,
       0
     ],
     "560644": [
+      0,
+      0
+    ],
+    "564751": [
       0,
       0
     ]
@@ -1295,8 +1371,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 14,
-    "last": "2026-11-21T15:03:56.732375+00:00"
+    "n": 15,
+    "last": "2026-11-21T15:18:02.922820+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1312,7 +1388,8 @@
     1557468,
     1557470,
     1557471,
-    1557476
+    1557476,
+    1570460
   ],
   "goal_keys": [
     {
@@ -1374,6 +1451,26 @@
       "h": "Coventry City",
       "a": "Crystal Palace",
       "n": 1
+    },
+    {
+      "h": "Union Berlin",
+      "a": "RB Leipzig",
+      "n": 2
+    },
+    {
+      "h": "Coventry",
+      "a": "Crystal Palace",
+      "n": 2
+    },
+    {
+      "h": "Tottenham",
+      "a": "Ipswich",
+      "n": 1
+    },
+    {
+      "h": "Como 1907",
+      "a": "Cagliari",
+      "n": 2
     }
   ]
 }

@@ -46,7 +46,11 @@
     "news-https://rmcsport.bfmtv.com/football/bundesliga/bayern-la-tuile-est-confirmee-pour-kane-gravement-blesse-a-la-cheville-et-absent-plusieurs-mois_AV-202611200965.html",
     "news-https://rmcsport.bfmtv.com/football/ligue-1/video-troyes-3-1-le-havre-tout-est-encore-instable-ismael-veut-y-croire_VN-202611200977.html",
     "result-559622",
-    "result-564748"
+    "result-564748",
+    "fixtures-2026-11-21",
+    "standings-SA-2026-W47",
+    "standings-BL1-2026-W47",
+    "standings-PPL-2026-W47"
   ],
   "history": [
     {
@@ -417,6 +421,35 @@
       "title": "Athletic 0 - 1 Espanyol",
       "message": "🏁 Score final – Primera Division\n\nAthletic 0 - 1 Espanyol\n\n#Football #PrimeraDivision",
       "date": "2026-11-20T23:04:05.176530+00:00"
+    },
+    {
+      "id": "fixtures-2026-11-21",
+      "type": "fixtures",
+      "title": "Matchs du samedi 21 novembre 2026",
+      "message": "📅 MATCHS DU JOUR – samedi 21 novembre 2026\n\n🕒 12:30 – Norwich vs Cardiff (Championship)\n🕒 12:30 – Millwall vs QPR (Championship)\n🕒 12:30 – Man City vs Fulham (Premier League)\n🕒 12:30 – Southampton vs Derby County (Championship)\n🕒 13:00 – Alavés vs Deportivo (Primera Division)\n🕒 14:00 – Lazio vs Lecce (Serie A)\n🕒 14:00 – Como 1907 vs Cagliari (Serie A)\n🕒 14:30 – Elversberg vs Freiburg (Bundesliga)\n🕒 14:30 – M'gladbach vs Dortmund (Bundesliga)\n🕒 14:30 – Union Berlin vs RB Leipzig (Bundesliga)\n🕒 14:30 – Leverkusen vs SC Paderborn (Bundesliga)\n🕒 14:30 – Frankfurt vs Hoffenheim (Bundesliga)\n🕒 15:00 – Wolverhampton vs Charlton (Championship)\n🕒 15:00 – Bournemouth vs Nottingham (Premier League)\n🕒 15:00 – Middlesbrough vs Bristol City (Championship)\n\n🔥 Bon match à tous !\n\n#Football",
+      "image": "cards/fixtures-2026-11-21.png",
+      "date": "2026-11-21T00:48:14.505667+00:00"
+    },
+    {
+      "id": "standings-SA-2026-W47",
+      "type": "standings",
+      "title": "Classement Serie A",
+      "message": "📊 Classement Serie A (top 10)\n\n🥇 Lazio – 29 pts\n🥈 Inter – 28 pts\n🥉 Roma – 27 pts\n4. Milan – 24 pts\n5. Como 1907 – 23 pts\n6. Frosinone – 20 pts\n7. Juventus – 18 pts\n8. Bologna – 17 pts\n9. Cagliari – 16 pts\n10. Napoli – 15 pts\n\n📌 Lazio est en tête avec 29 points en 11 matchs, 1 point(s) d'avance sur Inter.\n\n#Football",
+      "date": "2026-11-21T00:48:17.778940+00:00"
+    },
+    {
+      "id": "standings-BL1-2026-W47",
+      "type": "standings",
+      "title": "Classement Bundesliga",
+      "message": "📊 Classement Bundesliga (top 10)\n\n🥇 Bayern – 22 pts\n🥈 Dortmund – 21 pts\n🥉 Freiburg – 19 pts\n4. RB Leipzig – 18 pts\n5. Leverkusen – 16 pts\n6. Bremen – 15 pts\n7. Elversberg – 13 pts\n8. Stuttgart – 12 pts\n9. Hoffenheim – 12 pts\n10. Frankfurt – 12 pts\n\n📌 Bayern est en tête avec 22 points en 10 matchs, 1 point(s) d'avance sur Dortmund.\n\n#Football",
+      "date": "2026-11-21T00:48:20.458764+00:00"
+    },
+    {
+      "id": "standings-PPL-2026-W47",
+      "type": "standings",
+      "title": "Classement Primeira Liga",
+      "message": "📊 Classement Primeira Liga (top 10)\n\n🥇 Porto – 33 pts\n🥈 SL Benfica – 28 pts\n🥉 Sporting CP – 24 pts\n4. Santa Clara – 21 pts\n5. Arouca – 20 pts\n6. Acad. Viseu – 20 pts\n7. Gil Vicente – 18 pts\n8. Braga – 17 pts\n9. Moreirense – 14 pts\n10. Famalicão – 13 pts\n\n📌 Porto est en tête avec 33 points en 11 matchs, 5 point(s) d'avance sur SL Benfica.\n\n#Football",
+      "date": "2026-11-21T00:48:23.174283+00:00"
     }
   ],
   "fd_scores": {}

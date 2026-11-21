@@ -776,5 +776,198 @@
     }
   ],
   "fd_scores": {},
-  "_out_logged": true
+  "_out_logged": true,
+  "lineup_calls": {
+    "date": "2026-11-21",
+    "n": 1,
+    "last": ""
+  },
+  "lineup_plan": {
+    "date": "2026-11-21",
+    "fixtures": [
+      {
+        "id": 1557474,
+        "ts": 1795264200,
+        "comp": "Premier League",
+        "home": "Manchester City",
+        "away": "Fulham"
+      },
+      {
+        "id": 1570453,
+        "ts": 1795266000,
+        "comp": "La Liga",
+        "home": "Alaves",
+        "away": "Deportivo La Coruna"
+      },
+      {
+        "id": 1550200,
+        "ts": 1795269600,
+        "comp": "Serie A",
+        "home": "Como",
+        "away": "Cagliari"
+      },
+      {
+        "id": 1550202,
+        "ts": 1795269600,
+        "comp": "Serie A",
+        "home": "Lazio",
+        "away": "Lecce"
+      },
+      {
+        "id": 1575222,
+        "ts": 1795271400,
+        "comp": "Bundesliga",
+        "home": "Bayer Leverkusen",
+        "away": "SC Paderborn 07"
+      },
+      {
+        "id": 1575223,
+        "ts": 1795271400,
+        "comp": "Bundesliga",
+        "home": "Eintracht Frankfurt",
+        "away": "1899 Hoffenheim"
+      },
+      {
+        "id": 1575225,
+        "ts": 1795271400,
+        "comp": "Bundesliga",
+        "home": "Union Berlin",
+        "away": "RB Leipzig"
+      },
+      {
+        "id": 1575226,
+        "ts": 1795271400,
+        "comp": "Bundesliga",
+        "home": "Borussia Mönchengladbach",
+        "away": "Borussia Dortmund"
+      },
+      {
+        "id": 1575229,
+        "ts": 1795271400,
+        "comp": "Bundesliga",
+        "home": "SV Elversberg",
+        "away": "SC Freiburg"
+      },
+      {
+        "id": 1557467,
+        "ts": 1795273200,
+        "comp": "Premier League",
+        "home": "Aston Villa",
+        "away": "Sunderland"
+      },
+      {
+        "id": 1557468,
+        "ts": 1795273200,
+        "comp": "Premier League",
+        "home": "Bournemouth",
+        "away": "Nottingham Forest"
+      },
+      {
+        "id": 1557470,
+        "ts": 1795273200,
+        "comp": "Premier League",
+        "home": "Chelsea",
+        "away": "Leeds"
+      },
+      {
+        "id": 1557471,
+        "ts": 1795273200,
+        "comp": "Premier League",
+        "home": "Coventry",
+        "away": "Crystal Palace"
+      },
+      {
+        "id": 1557476,
+        "ts": 1795273200,
+        "comp": "Premier League",
+        "home": "Tottenham",
+        "away": "Ipswich"
+      },
+      {
+        "id": 1570460,
+        "ts": 1795274100,
+        "comp": "La Liga",
+        "home": "Rayo Vallecano",
+        "away": "Valencia"
+      },
+      {
+        "id": 1552824,
+        "ts": 1795277700,
+        "comp": "Ligue 1",
+        "home": "Nice",
+        "away": "Paris Saint Germain"
+      },
+      {
+        "id": 1550205,
+        "ts": 1795280400,
+        "comp": "Serie A",
+        "home": "Parma",
+        "away": "AS Roma"
+      },
+      {
+        "id": 1557475,
+        "ts": 1795282200,
+        "comp": "Premier League",
+        "home": "Newcastle",
+        "away": "Arsenal"
+      },
+      {
+        "id": 1570462,
+        "ts": 1795282200,
+        "comp": "La Liga",
+        "home": "Sevilla",
+        "away": "Real Betis"
+      },
+      {
+        "id": 1575228,
+        "ts": 1795282200,
+        "comp": "Bundesliga",
+        "home": "FC Schalke 04",
+        "away": "VfB Stuttgart"
+      },
+      {
+        "id": 1550204,
+        "ts": 1795290300,
+        "comp": "Serie A",
+        "home": "Napoli",
+        "away": "Torino"
+      },
+      {
+        "id": 1552819,
+        "ts": 1795290300,
+        "comp": "Ligue 1",
+        "home": "Lens",
+        "away": "Toulouse"
+      },
+      {
+        "id": 1552820,
+        "ts": 1795290300,
+        "comp": "Ligue 1",
+        "home": "Lille",
+        "away": "Lyon"
+      },
+      {
+        "id": 1552823,
+        "ts": 1795290300,
+        "comp": "Ligue 1",
+        "home": "Monaco",
+        "away": "Auxerre"
+      },
+      {
+        "id": 1552826,
+        "ts": 1795290300,
+        "comp": "Ligue 1",
+        "home": "Strasbourg",
+        "away": "Stade Brestois 29"
+      },
+      {
+        "id": 1570461,
+        "ts": 1795291200,
+        "comp": "La Liga",
+        "home": "Real Madrid",
+        "away": "Celta Vigo"
+      }
+    ],
+    "tries": {}
+  }
 }

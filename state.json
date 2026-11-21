@@ -132,7 +132,12 @@
     "ev-1557471-2-30-goal-33462",
     "ev-1550200-3-56-goal-162266",
     "ev-1550202-4-68-goal-133729",
-    "fdgoal-565857-2-0"
+    "fdgoal-565857-2-0",
+    "fdgoal-565857-3-0",
+    "ev-1575222-2-47-goal-345388",
+    "ev-1575222-3-51-goal-794",
+    "ev-1575225-7-50-goal-326102",
+    "fdgoal-560650-2-2"
   ],
   "history": [
     {
@@ -1187,6 +1192,46 @@
       "message": "⚽ BUUUT ! Leverkusen marque.\n\n📊 Leverkusen 2 - 0 SC Paderborn\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
       "image": "cards/fdgoal-565857-2-0.png",
       "date": "2026-11-21T15:42:14.517911+00:00"
+    },
+    {
+      "id": "fdgoal-565857-3-0",
+      "type": "event",
+      "title": "Leverkusen 3 - 0 SC Paderborn",
+      "message": "⚽ BUUUT ! Leverkusen marque.\n\n📊 Leverkusen 3 - 0 SC Paderborn\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565857-3-0.png",
+      "date": "2026-11-21T15:45:26.637974+00:00"
+    },
+    {
+      "id": "ev-1575222-2-47-goal-345388",
+      "type": "event",
+      "title": "Bayer Leverkusen 2 - 0 SC Paderborn 07",
+      "message": "ℹ️ Détails du but (47') : Afonso Moreira (Bayer Leverkusen), passe décisive de Nathan Tella.\n\n📊 Bayer Leverkusen 2 - 0 SC Paderborn 07\n\n#Football #Direct",
+      "image": "cards/ev-1575222-2-47-goal-345388.png",
+      "date": "2026-11-21T15:46:14.123060+00:00"
+    },
+    {
+      "id": "ev-1575222-3-51-goal-794",
+      "type": "event",
+      "title": "Bayer Leverkusen 3 - 0 SC Paderborn 07",
+      "message": "ℹ️ Détails du but (51') : Patrik Schick (Bayer Leverkusen), passe décisive de Nathan Tella.\n\n📊 Bayer Leverkusen 3 - 0 SC Paderborn 07\n\n#Football #Direct",
+      "image": "cards/ev-1575222-3-51-goal-794.png",
+      "date": "2026-11-21T15:46:17.449308+00:00"
+    },
+    {
+      "id": "ev-1575225-7-50-goal-326102",
+      "type": "event",
+      "title": "Union Berlin 1 - 2 RB Leipzig",
+      "message": "⚽ BUUUT ! 50'\n\nRômulo José Cardoso da Cruz (RB Leipzig) marque. Passe décisive de Brajan Gruda.\n\n📊 Union Berlin 1 - 2 RB Leipzig\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575225-7-50-goal-326102.png",
+      "date": "2026-11-21T15:46:20.297235+00:00"
+    },
+    {
+      "id": "fdgoal-560650-2-2",
+      "type": "event",
+      "title": "Coventry City 2 - 2 Crystal Palace",
+      "message": "⚽ BUUUT ! Crystal Palace marque.\n\n📊 Coventry City 2 - 2 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560650-2-2.png",
+      "date": "2026-11-21T15:52:19.411588+00:00"
     }
   ],
   "fd_scores": {
@@ -1208,7 +1253,7 @@
     ],
     "565858": [
       1,
-      1
+      2
     ],
     "565860": [
       0,
@@ -1223,7 +1268,7 @@
       0
     ],
     "565857": [
-      2,
+      3,
       0
     ],
     "560642": [
@@ -1232,7 +1277,7 @@
     ],
     "560650": [
       2,
-      1
+      2
     ],
     "560647": [
       1,
@@ -1461,8 +1506,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 16,
-    "last": "2026-11-21T15:32:07.630079+00:00"
+    "n": 17,
+    "last": "2026-11-21T15:46:10.601831+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1591,6 +1636,21 @@
       "h": "Leverkusen",
       "a": "SC Paderborn",
       "n": 2
+    },
+    {
+      "h": "Leverkusen",
+      "a": "SC Paderborn",
+      "n": 3
+    },
+    {
+      "h": "Union Berlin",
+      "a": "RB Leipzig",
+      "n": 3
+    },
+    {
+      "h": "Coventry City",
+      "a": "Crystal Palace",
+      "n": 4
     }
   ]
 }

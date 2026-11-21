@@ -92,7 +92,8 @@
     "fdgoal-560643-0-1",
     "ev-1557474-1-16-goal-195106",
     "fdgoal-564755-1-0",
-    "ev-1570453-0-2-goal-331369"
+    "ev-1570453-0-2-goal-331369",
+    "fdgoal-564755-1-1"
   ],
   "history": [
     {
@@ -827,6 +828,14 @@
       "message": "ℹ️ Détails du but (2') : Angel Pérez Hidalgo (Alaves), passe décisive de Antonio Blanco.\n\n📊 Alaves 1 - 0 Deportivo La Coruna\n\n#Football #Direct",
       "image": "cards/ev-1570453-0-2-goal-331369.png",
       "date": "2026-11-21T13:11:06.096053+00:00"
+    },
+    {
+      "id": "fdgoal-564755-1-1",
+      "type": "event",
+      "title": "Alavés 1 - 1 Deportivo",
+      "message": "⚽ BUUUT ! Deportivo marque.\n\n📊 Alavés 1 - 1 Deportivo\n🏆 Primera Division\n\n#Football #PrimeraDivision #Direct",
+      "image": "cards/fdgoal-564755-1-1.png",
+      "date": "2026-11-21T13:47:35.535108+00:00"
     }
   ],
   "fd_scores": {
@@ -836,13 +845,13 @@
     ],
     "564755": [
       1,
-      0
+      1
     ]
   },
   "lineup_calls": {
     "date": "2026-11-21",
-    "n": 11,
-    "last": "2026-11-21T13:30:16.144967+00:00"
+    "n": 16,
+    "last": "2026-11-21T13:40:00.861167+00:00"
   },
   "lineup_plan": {
     "date": "2026-11-21",
@@ -1034,13 +1043,18 @@
       "1557474": 3,
       "1570453": 3,
       "1550200": 2,
-      "1550202": 2
+      "1550202": 2,
+      "1575222": 1,
+      "1575223": 1,
+      "1575225": 1,
+      "1575226": 1,
+      "1575229": 1
     }
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 7,
-    "last": "2026-11-21T13:25:13.332490+00:00"
+    "n": 8,
+    "last": "2026-11-21T13:39:14.581763+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1056,6 +1070,11 @@
       "h": "Alavés",
       "a": "Deportivo",
       "n": 1
+    },
+    {
+      "h": "Alavés",
+      "a": "Deportivo",
+      "n": 2
     }
   ]
 }

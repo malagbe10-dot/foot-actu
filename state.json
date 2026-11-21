@@ -87,7 +87,8 @@
     "news-https://www.footmercato.net/a8120659692075499701-fc-porto-le-pire-but-contre-son-camp-de-lhistoire-signe-francisco-moura",
     "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-11/",
     "news-https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/",
-    "lineup-1557474"
+    "lineup-1557474",
+    "lineup-1570453"
   ],
   "history": [
     {
@@ -782,13 +783,26 @@
       "message": "📋 COMPOSITIONS – Manchester City vs Fulham\n🏆 Premier League · ⏰ 12:30 UTC\n\n🏠 Manchester City (4-2-3-1)\nGardien : G. Donnarumma\nDéfenseurs : N. O&apos;Reilly, M. Guéhi, Rúben Dias, A. Khusanov\nMilieux : E. Anderson, A. Bouaddi, J. Doku, P. Foden, I. Ndiaye\nAttaquants : E. Haaland\n🧑‍💼 Entraîneur : E. Maresca\n\n✈️ Fulham (4-2-3-1)\nGardien : B. Leno\nDéfenseurs : R. Sessegnon, C. Bassey, D. Affengruber, K. Tete\nMilieux : S. Charles, S. Berge, A. Iwobi, Joshua King, Oscar Bobb\nAttaquants : Rodrigo Muniz\n🧑‍💼 Entraîneur : Álvaro Arbeloa\n\n#Football #PremierLeague",
       "image": "cards/lineup-1557474.png",
       "date": "2026-11-21T12:18:14.057955+00:00"
+    },
+    {
+      "id": "lineup-1570453",
+      "type": "event",
+      "title": "Compositions Alaves - Deportivo La Coruna",
+      "message": "📋 COMPOSITIONS – Alaves vs Deportivo La Coruna\n🏆 La Liga · ⏰ 13:00 UTC\n\n🏠 Alaves (4-4-2)\nGardien : Sivera\nDéfenseurs : A. Rebbach, V. Koski, N. Tenaglia, Jonny\nMilieux : Denis Suárez, Pablo Ibáñez, Antonio Blanco, Angel Pérez\nAttaquants : Toni Martínez, L. Boyé\n🧑‍💼 Entraîneur : Quique Sánchez Flores\n\n✈️ Deportivo La Coruna (4-4-2)\nGardien : Leo Román\nDéfenseurs : G. Quagliata, L. Noubi, Miguel Loureiro, Ximo Navarro\nMilieux : Luismi Cruz, Marc Casadó, Riki Rodríguez, Mario Soriano\nAttaquants : P. Aubameyang, Peke\n🧑‍💼 Entraîneur : Antonio Hidalgo\n\n#Football #LaLiga",
+      "image": "cards/lineup-1570453.png",
+      "date": "2026-11-21T12:48:16.492620+00:00"
     }
   ],
-  "fd_scores": {},
+  "fd_scores": {
+    "560643": [
+      0,
+      0
+    ]
+  },
   "lineup_calls": {
     "date": "2026-11-21",
-    "n": 6,
-    "last": "2026-11-21T12:30:08.704485+00:00"
+    "n": 7,
+    "last": "2026-11-21T12:48:10.763139+00:00"
   },
   "lineup_plan": {
     "date": "2026-11-21",
@@ -978,13 +992,15 @@
     ],
     "tries": {
       "1557474": 3,
-      "1570453": 2
+      "1570453": 3
     }
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 3,
-    "last": "2026-11-21T12:28:46.556867+00:00"
+    "n": 4,
+    "last": "2026-11-21T12:42:48.122301+00:00"
   },
-  "live_fixtures": []
+  "live_fixtures": [
+    1557474
+  ]
 }

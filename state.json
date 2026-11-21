@@ -137,7 +137,16 @@
     "ev-1575222-2-47-goal-345388",
     "ev-1575222-3-51-goal-794",
     "ev-1575225-7-50-goal-326102",
-    "fdgoal-560650-2-2"
+    "fdgoal-560650-2-2",
+    "fdgoal-558528-3-0",
+    "fdgoal-560647-2-0",
+    "fdgoal-565857-4-0",
+    "ev-1570460-0-41-goal-181582",
+    "ev-1575222-8-59-goal-237087",
+    "ev-1575229-3-68-goal-202696",
+    "ev-1557468-2-45-goal-792",
+    "ev-1557471-5-45-goal-2032",
+    "fdgoal-565858-1-3"
   ],
   "history": [
     {
@@ -1232,6 +1241,78 @@
       "message": "⚽ BUUUT ! Crystal Palace marque.\n\n📊 Coventry City 2 - 2 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
       "image": "cards/fdgoal-560650-2-2.png",
       "date": "2026-11-21T15:52:19.411588+00:00"
+    },
+    {
+      "id": "fdgoal-558528-3-0",
+      "type": "event",
+      "title": "Lazio 3 - 0 Lecce",
+      "message": "⚽ BUUUT ! Lazio marque.\n\n📊 Lazio 3 - 0 Lecce\n🏆 Serie A\n\n#Football #SerieA #Direct",
+      "image": "cards/fdgoal-558528-3-0.png",
+      "date": "2026-11-21T15:53:31.796170+00:00"
+    },
+    {
+      "id": "fdgoal-560647-2-0",
+      "type": "event",
+      "title": "Bournemouth 2 - 0 Nottingham",
+      "message": "⚽ BUUUT ! Bournemouth marque.\n\n📊 Bournemouth 2 - 0 Nottingham\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560647-2-0.png",
+      "date": "2026-11-21T15:53:36.232066+00:00"
+    },
+    {
+      "id": "fdgoal-565857-4-0",
+      "type": "event",
+      "title": "Leverkusen 4 - 0 SC Paderborn",
+      "message": "⚽ BUUUT ! Leverkusen marque.\n\n📊 Leverkusen 4 - 0 SC Paderborn\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565857-4-0.png",
+      "date": "2026-11-21T15:54:01.489024+00:00"
+    },
+    {
+      "id": "ev-1570460-0-41-goal-181582",
+      "type": "event",
+      "title": "Rayo Vallecano 0 - 1 Valencia",
+      "message": "⚽ BUUUT ! 41'\n\nJosé Copete (Valencia) marque. Passe décisive de Javi Guerra.\n\n📊 Rayo Vallecano 0 - 1 Valencia\n🏆 La Liga\n\n#Football #LaLiga #Direct",
+      "image": "cards/ev-1570460-0-41-goal-181582.png",
+      "date": "2026-11-21T16:00:27.339555+00:00"
+    },
+    {
+      "id": "ev-1575222-8-59-goal-237087",
+      "type": "event",
+      "title": "Bayer Leverkusen 4 - 0 SC Paderborn 07",
+      "message": "ℹ️ Détails du but (59') : Equi Fernández (Bayer Leverkusen), passe décisive de Afonso Moreira.\n\n📊 Bayer Leverkusen 4 - 0 SC Paderborn 07\n\n#Football #Direct",
+      "image": "cards/ev-1575222-8-59-goal-237087.png",
+      "date": "2026-11-21T16:00:30.132146+00:00"
+    },
+    {
+      "id": "ev-1575229-3-68-goal-202696",
+      "type": "event",
+      "title": "SV Elversberg 0 - 1 SC Freiburg",
+      "message": "⚽ BUUUT ! 68'\n\nIgor Matanović (SC Freiburg) marque. Passe décisive de Jan-Niklas Beste.\n\n📊 SV Elversberg 0 - 1 SC Freiburg\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575229-3-68-goal-202696.png",
+      "date": "2026-11-21T16:00:33.096185+00:00"
+    },
+    {
+      "id": "ev-1557468-2-45-goal-792",
+      "type": "event",
+      "title": "Bournemouth 2 - 0 Nottingham Forest",
+      "message": "ℹ️ Détails du but (45+3') : Justin Kluivert (Bournemouth), passe décisive de Marcus Tavernier.\n\n📊 Bournemouth 2 - 0 Nottingham Forest\n\n#Football #Direct",
+      "image": "cards/ev-1557468-2-45-goal-792.png",
+      "date": "2026-11-21T16:00:36.051505+00:00"
+    },
+    {
+      "id": "ev-1557471-5-45-goal-2032",
+      "type": "event",
+      "title": "Coventry 2 - 2 Crystal Palace",
+      "message": "ℹ️ Détails du but (45+1') : Jörgen Strand Larsen (Crystal Palace), passe décisive de Yeremy Pino.\n\n📊 Coventry 2 - 2 Crystal Palace\n\n#Football #Direct",
+      "image": "cards/ev-1557471-5-45-goal-2032.png",
+      "date": "2026-11-21T16:00:39.284008+00:00"
+    },
+    {
+      "id": "fdgoal-565858-1-3",
+      "type": "event",
+      "title": "Union Berlin 1 - 3 RB Leipzig",
+      "message": "⚽ BUUUT ! RB Leipzig marque.\n\n📊 Union Berlin 1 - 3 RB Leipzig\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565858-1-3.png",
+      "date": "2026-11-21T16:10:19.294471+00:00"
     }
   ],
   "fd_scores": {
@@ -1248,16 +1329,16 @@
       0
     ],
     "558528": [
-      2,
+      3,
       0
     ],
     "565858": [
       1,
-      2
+      3
     ],
     "565860": [
       0,
-      0
+      1
     ],
     "565862": [
       0,
@@ -1268,7 +1349,7 @@
       0
     ],
     "565857": [
-      3,
+      4,
       0
     ],
     "560642": [
@@ -1280,7 +1361,7 @@
       2
     ],
     "560647": [
-      1,
+      2,
       0
     ],
     "560648": [
@@ -1293,7 +1374,7 @@
     ],
     "564751": [
       0,
-      0
+      1
     ]
   },
   "lineup_calls": {
@@ -1506,8 +1587,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 17,
-    "last": "2026-11-21T15:46:10.601831+00:00"
+    "n": 18,
+    "last": "2026-11-21T16:00:23.379902+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1650,6 +1731,36 @@
     {
       "h": "Coventry City",
       "a": "Crystal Palace",
+      "n": 4
+    },
+    {
+      "h": "Lazio",
+      "a": "Lecce",
+      "n": 3
+    },
+    {
+      "h": "Bournemouth",
+      "a": "Nottingham",
+      "n": 2
+    },
+    {
+      "h": "Leverkusen",
+      "a": "SC Paderborn",
+      "n": 4
+    },
+    {
+      "h": "Rayo Vallecano",
+      "a": "Valencia",
+      "n": 1
+    },
+    {
+      "h": "SV Elversberg",
+      "a": "SC Freiburg",
+      "n": 1
+    },
+    {
+      "h": "Union Berlin",
+      "a": "RB Leipzig",
       "n": 4
     }
   ]

@@ -90,7 +90,9 @@
     "lineup-1557474",
     "lineup-1570453",
     "fdgoal-560643-0-1",
-    "ev-1557474-1-16-goal-195106"
+    "ev-1557474-1-16-goal-195106",
+    "fdgoal-564755-1-0",
+    "ev-1570453-0-2-goal-331369"
   ],
   "history": [
     {
@@ -809,18 +811,38 @@
       "message": "ℹ️ Détails du but (16') : Rodrigo Muniz (Fulham), passe décisive de Oscar Bobb.\n\n📊 Manchester City 0 - 1 Fulham\n\n#Football #Direct",
       "image": "cards/ev-1557474-1-16-goal-195106.png",
       "date": "2026-11-21T12:56:52.967298+00:00"
+    },
+    {
+      "id": "fdgoal-564755-1-0",
+      "type": "event",
+      "title": "Alavés 1 - 0 Deportivo",
+      "message": "⚽ BUUUT ! Alavés marque.\n\n📊 Alavés 1 - 0 Deportivo\n🏆 Primera Division\n\n#Football #PrimeraDivision #Direct",
+      "image": "cards/fdgoal-564755-1-0.png",
+      "date": "2026-11-21T13:08:15.720920+00:00"
+    },
+    {
+      "id": "ev-1570453-0-2-goal-331369",
+      "type": "event",
+      "title": "Alaves 1 - 0 Deportivo La Coruna",
+      "message": "ℹ️ Détails du but (2') : Angel Pérez Hidalgo (Alaves), passe décisive de Antonio Blanco.\n\n📊 Alaves 1 - 0 Deportivo La Coruna\n\n#Football #Direct",
+      "image": "cards/ev-1570453-0-2-goal-331369.png",
+      "date": "2026-11-21T13:11:06.096053+00:00"
     }
   ],
   "fd_scores": {
     "560643": [
       0,
       1
+    ],
+    "564755": [
+      1,
+      0
     ]
   },
   "lineup_calls": {
     "date": "2026-11-21",
-    "n": 7,
-    "last": "2026-11-21T12:48:10.763139+00:00"
+    "n": 11,
+    "last": "2026-11-21T13:30:16.144967+00:00"
   },
   "lineup_plan": {
     "date": "2026-11-21",
@@ -1010,21 +1032,29 @@
     ],
     "tries": {
       "1557474": 3,
-      "1570453": 3
+      "1570453": 3,
+      "1550200": 2,
+      "1550202": 2
     }
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 5,
-    "last": "2026-11-21T12:56:49.030799+00:00"
+    "n": 7,
+    "last": "2026-11-21T13:25:13.332490+00:00"
   },
   "live_fixtures": [
-    1557474
+    1557474,
+    1570453
   ],
   "goal_keys": [
     {
       "h": "Man City",
       "a": "Fulham",
+      "n": 1
+    },
+    {
+      "h": "Alavés",
+      "a": "Deportivo",
       "n": 1
     }
   ]

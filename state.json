@@ -78,7 +78,11 @@
     "news-https://rmcsport.bfmtv.com/football/alexandre-lafitte-debarque-au-soudan-pour-coacher-al-hilal-s-il-y-a-un-probleme-la-france-ne-peut-pas-m-aider_AN-202611210121.html",
     "news-https://www.skysports.com/racing/news/12040/13614349/today-on-sky-sports-racing-ascot-lingfield-park-and-newcastle-feature-live-on-saturday",
     "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253606/amargo-regreso-titularidad.html",
-    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253306/bilbao-athletic-dificil-salida-anduva.html"
+    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253306/bilbao-athletic-dificil-salida-anduva.html",
+    "news-https://rmcsport.bfmtv.com/football/liga/mort-de-jesus-de-miguel-premiere-apparition-emouvante-du-gardien-d-andorre-jesus-owono-depuis-le-drame_AN-202611210211.html",
+    "news-https://rmcsport.bfmtv.com/football/liga/ses-coequipiers-n-avaient-jamais-vu-un-talent-pareil-l-ascension-fulgurante-de-diomande-d-une-chambre-partagee-jusqu-au-real-en-moins-de-deux-ans_AV-202611210123.html",
+    "news-https://www.footmercato.net/a5973665784569959412-antonio-conte-se-lache-et-dezingue-manchester-united",
+    "news-https://www.mundodeportivo.com/futbol/rayo-vallecano/20261121/1004253615/rayo-vallecano-devolvera-dinero-destierro-butarque.html"
   ],
   "history": [
     {
@@ -701,6 +705,38 @@
       "message": "🚨 Le Bilbao Athletic a un déplacement difficile à Anduva\n\nLe Bilbao Athletic a aujourd'hui un match difficile à Anduva. Les « Cachorros » se rendent chez le Mirandés (13 heures), une équipe qui occupe le haut du classement avec 20 points, soit quatre de plus que l'équipe réserve « rojiblanca ».\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
       "link": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253306/bilbao-athletic-dificil-salida-anduva.html",
       "date": "2026-11-21T07:07:01.406494+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/liga/mort-de-jesus-de-miguel-premiere-apparition-emouvante-du-gardien-d-andorre-jesus-owono-depuis-le-drame_AN-202611210211.html",
+      "type": "news",
+      "title": "Mort de Jesus de Miguel : première apparition émouvante du gardien d'Andorre Jesus Owono depuis le drame",
+      "message": "🚨 Mort de Jesus de Miguel : première apparition émouvante du gardien d'Andorre Jesus Owono depuis le drame\n\nLe gardien d'Andorre Jesus Owono, sanctionné douze matchs pour son geste fatal sur Jesus de Miguel, est apparu très marqué dans les tribunes en marge d'un match de son équipe vendredi.\n\n📰 Source : RMC Sport\n\n#Football #Actu",
+      "link": "https://rmcsport.bfmtv.com/football/liga/mort-de-jesus-de-miguel-premiere-apparition-emouvante-du-gardien-d-andorre-jesus-owono-depuis-le-drame_AN-202611210211.html",
+      "date": "2026-11-21T07:36:52.446239+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/liga/ses-coequipiers-n-avaient-jamais-vu-un-talent-pareil-l-ascension-fulgurante-de-diomande-d-une-chambre-partagee-jusqu-au-real-en-moins-de-deux-ans_AV-202611210123.html",
+      "type": "news",
+      "title": "\"Ses coéquipiers n’avaient jamais vu un talent pareil\" : l’ascension fulgurante de Diomandé, d’une \"chambre partagée\" jusqu’au Real en moins de deux ans",
+      "message": "🚨 \"Ses coéquipiers n’avaient jamais vu un talent pareil\" : l’ascension fulgurante de Diomandé, d’une \"chambre partagée\" jusqu’au Real en moins de deux ans\n\nAlors qu’il avait commencé 2025 en cinquième division espagnole, Yan Diomandé bouscule aujourd’hui la hiérarchie du Real Madrid. De ses premiers matchs professionnels à sa complicité avec Kylian Mbappé, récit de sa trajectoire météorique.\n\n📰 Source : RMC Sport\n\n#Football #Actu",
+      "link": "https://rmcsport.bfmtv.com/football/liga/ses-coequipiers-n-avaient-jamais-vu-un-talent-pareil-l-ascension-fulgurante-de-diomande-d-une-chambre-partagee-jusqu-au-real-en-moins-de-deux-ans_AV-202611210123.html",
+      "date": "2026-11-21T07:36:54.945726+00:00"
+    },
+    {
+      "id": "news-https://www.footmercato.net/a5973665784569959412-antonio-conte-se-lache-et-dezingue-manchester-united",
+      "type": "news",
+      "title": "Antonio Conte se lâche et dézingue Manchester United",
+      "message": "🚨 Antonio Conte se lâche et dézingue Manchester United\n\nManchester United cherche à insuffler un nouveau souffle à son projet sportif. Après plusieurs saisons décevantes, les Red Devils ont décidé de miser sur Mauricio Pochettino pour retrouver les sommets (…)\n\n📰 Source : Foot Mercato\n\n#Football #Actu",
+      "link": "https://www.footmercato.net/a5973665784569959412-antonio-conte-se-lache-et-dezingue-manchester-united",
+      "date": "2026-11-21T07:36:57.444128+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/rayo-vallecano/20261121/1004253615/rayo-vallecano-devolvera-dinero-destierro-butarque.html",
+      "type": "news",
+      "title": "Le Rayo Vallecano remboursera l’argent de l’exil à Butarque",
+      "message": "🚨 Le Rayo Vallecano remboursera l’argent de l’exil à Butarque\n\nCe samedi, le Rayo Vallecano accueille Valence au stade de Vallecas. Et tout indique que cela se fera dans un climat de totale sérénité sur le plan de l’ambiance et dans le cadre des négociations menées par le club avec les représentants et les supporters du club, toujours dans le but de…\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/rayo-vallecano/20261121/1004253615/rayo-vallecano-devolvera-dinero-destierro-butarque.html",
+      "date": "2026-11-21T07:37:00.196600+00:00"
     }
   ],
   "fd_scores": {}

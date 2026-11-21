@@ -88,7 +88,9 @@
     "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-11/",
     "news-https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/",
     "lineup-1557474",
-    "lineup-1570453"
+    "lineup-1570453",
+    "fdgoal-560643-0-1",
+    "ev-1557474-1-16-goal-195106"
   ],
   "history": [
     {
@@ -791,12 +793,28 @@
       "message": "📋 COMPOSITIONS – Alaves vs Deportivo La Coruna\n🏆 La Liga · ⏰ 13:00 UTC\n\n🏠 Alaves (4-4-2)\nGardien : Sivera\nDéfenseurs : A. Rebbach, V. Koski, N. Tenaglia, Jonny\nMilieux : Denis Suárez, Pablo Ibáñez, Antonio Blanco, Angel Pérez\nAttaquants : Toni Martínez, L. Boyé\n🧑‍💼 Entraîneur : Quique Sánchez Flores\n\n✈️ Deportivo La Coruna (4-4-2)\nGardien : Leo Román\nDéfenseurs : G. Quagliata, L. Noubi, Miguel Loureiro, Ximo Navarro\nMilieux : Luismi Cruz, Marc Casadó, Riki Rodríguez, Mario Soriano\nAttaquants : P. Aubameyang, Peke\n🧑‍💼 Entraîneur : Antonio Hidalgo\n\n#Football #LaLiga",
       "image": "cards/lineup-1570453.png",
       "date": "2026-11-21T12:48:16.492620+00:00"
+    },
+    {
+      "id": "fdgoal-560643-0-1",
+      "type": "event",
+      "title": "Man City 0 - 1 Fulham",
+      "message": "⚽ BUUUT ! Fulham marque.\n\n📊 Man City 0 - 1 Fulham\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560643-0-1.png",
+      "date": "2026-11-21T12:53:05.460131+00:00"
+    },
+    {
+      "id": "ev-1557474-1-16-goal-195106",
+      "type": "event",
+      "title": "Manchester City 0 - 1 Fulham",
+      "message": "ℹ️ Détails du but (16') : Rodrigo Muniz (Fulham), passe décisive de Oscar Bobb.\n\n📊 Manchester City 0 - 1 Fulham\n\n#Football #Direct",
+      "image": "cards/ev-1557474-1-16-goal-195106.png",
+      "date": "2026-11-21T12:56:52.967298+00:00"
     }
   ],
   "fd_scores": {
     "560643": [
       0,
-      0
+      1
     ]
   },
   "lineup_calls": {
@@ -997,10 +1015,17 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 4,
-    "last": "2026-11-21T12:42:48.122301+00:00"
+    "n": 5,
+    "last": "2026-11-21T12:56:49.030799+00:00"
   },
   "live_fixtures": [
     1557474
+  ],
+  "goal_keys": [
+    {
+      "h": "Man City",
+      "a": "Fulham",
+      "n": 1
+    }
   ]
 }

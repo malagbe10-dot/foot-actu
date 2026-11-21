@@ -2,29 +2,39 @@ name: Publication football
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: foot
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Lancer le bot
+      - name: Lancer le bot (boucle)
         env:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python bot.py
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+        run: python bot.py --loop-minutes 340 --interval 12 --full-every 30
       - name: Enregistrer l'état et le site
+        if: always()
         run: |
           git config user.name "foot-bot"
           git config user.email "bot@users.noreply.github.com"
           git add state.json docs
-          git diff --cached --quiet || (git commit -m "maj auto" && git push)
+          git diff --cached --quiet || (git commit -m "maj auto" && git pull --rebase -q && git push)

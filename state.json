@@ -93,7 +93,12 @@
     "ev-1557474-1-16-goal-195106",
     "fdgoal-564755-1-0",
     "ev-1570453-0-2-goal-331369",
-    "fdgoal-564755-1-1"
+    "fdgoal-564755-1-1",
+    "lineup-1550200",
+    "fdgoal-560643-1-1",
+    "lineup-1550202",
+    "ev-1557474-4-57-goal-138908",
+    "ev-1570453-4-41-goal-6233"
   ],
   "history": [
     {
@@ -836,11 +841,51 @@
       "message": "⚽ BUUUT ! Deportivo marque.\n\n📊 Alavés 1 - 1 Deportivo\n🏆 Primera Division\n\n#Football #PrimeraDivision #Direct",
       "image": "cards/fdgoal-564755-1-1.png",
       "date": "2026-11-21T13:47:35.535108+00:00"
+    },
+    {
+      "id": "lineup-1550200",
+      "type": "event",
+      "title": "Compositions Como - Cagliari",
+      "message": "📋 COMPOSITIONS – Como vs Cagliari\n🏆 Serie A · ⏰ 14:00 UTC\n\n🏠 Como (4-2-3-1)\nGardien : J. Butez\nDéfenseurs : Kaiki, M. Kempf, Jacobo Ramón Naveros, Yan Couto\nMilieux : L. da Cunha, Luis Milla, M. Baturina, S. Ricci, M. Liberali\nAttaquants : T. Douvikas\n🧑‍💼 Entraîneur : Cesc Fàbregas\n\n✈️ Cagliari (4-2-3-1)\nGardien : E. Caprile\nDéfenseurs : A. Obert, R. Kofler, A. Deiola, Zé Pedro\nMilieux : N. Grandu, A. Romano, J. Fazzini, D. Maldini, M. Adopo\nAttaquants : P. Mendy\n🧑‍💼 Entraîneur : F. Pisacane\n\n#Football #SerieA",
+      "image": "cards/lineup-1550200.png",
+      "date": "2026-11-21T13:48:12.960253+00:00"
+    },
+    {
+      "id": "fdgoal-560643-1-1",
+      "type": "event",
+      "title": "Man City 1 - 1 Fulham",
+      "message": "⚽ BUUUT ! Man City marque.\n\n📊 Man City 1 - 1 Fulham\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560643-1-1.png",
+      "date": "2026-11-21T13:51:24.416915+00:00"
+    },
+    {
+      "id": "lineup-1550202",
+      "type": "event",
+      "title": "Compositions Lazio - Lecce",
+      "message": "📋 COMPOSITIONS – Lazio vs Lecce\n🏆 Serie A · ⏰ 14:00 UTC\n\n🏠 Lazio (4-3-3)\nGardien : C. Mandas\nDéfenseurs : Pedraza, Diogo Leite, D. Doekhi, R. Floriani Mussolini\nMilieux : K. Taylor, R. Belahyane, D. Frattesi\nAttaquants : T. Noslin, A. Pinamonti, G. Isaksen\n🧑‍💼 Entraîneur : G. Gattuso\n\n✈️ Lecce (4-3-3)\nGardien : W. Falcone\nDéfenseurs : A. Gallo, Tiago Gabriel, J. Siebert, Danilo Veiga\nMilieux : Y. Maleh, M. Kaba, L. Coulibaly\nAttaquants : A. Ahmed Fatah, W. Geubbels, K. N’Dri\n🧑‍💼 Entraîneur : E. Di Francesco\n\n#Football #SerieA",
+      "image": "cards/lineup-1550202.png",
+      "date": "2026-11-21T13:52:11.981737+00:00"
+    },
+    {
+      "id": "ev-1557474-4-57-goal-138908",
+      "type": "event",
+      "title": "Manchester City 1 - 1 Fulham",
+      "message": "ℹ️ Détails du but (57') : Elliot Anderson (Manchester City).\n\n📊 Manchester City 1 - 1 Fulham\n\n#Football #Direct",
+      "image": "cards/ev-1557474-4-57-goal-138908.png",
+      "date": "2026-11-21T13:53:24.110517+00:00"
+    },
+    {
+      "id": "ev-1570453-4-41-goal-6233",
+      "type": "event",
+      "title": "Alaves 2 - 0 Deportivo La Coruna",
+      "message": "ℹ️ Détails du but (41') : Nahuel Tenaglia (Deportivo La Coruna).\n\n📊 Alaves 2 - 0 Deportivo La Coruna\n\n#Football #Direct",
+      "image": "cards/ev-1570453-4-41-goal-6233.png",
+      "date": "2026-11-21T13:53:27.809488+00:00"
     }
   ],
   "fd_scores": {
     "560643": [
-      0,
+      1,
       1
     ],
     "564755": [
@@ -850,8 +895,8 @@
   },
   "lineup_calls": {
     "date": "2026-11-21",
-    "n": 16,
-    "last": "2026-11-21T13:40:00.861167+00:00"
+    "n": 23,
+    "last": "2026-11-21T14:00:08.815807+00:00"
   },
   "lineup_plan": {
     "date": "2026-11-21",
@@ -1042,19 +1087,19 @@
     "tries": {
       "1557474": 3,
       "1570453": 3,
-      "1550200": 2,
-      "1550202": 2,
-      "1575222": 1,
-      "1575223": 1,
-      "1575225": 1,
-      "1575226": 1,
-      "1575229": 1
+      "1550200": 3,
+      "1550202": 3,
+      "1575222": 2,
+      "1575223": 2,
+      "1575225": 2,
+      "1575226": 2,
+      "1575229": 2
     }
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 8,
-    "last": "2026-11-21T13:39:14.581763+00:00"
+    "n": 9,
+    "last": "2026-11-21T13:53:20.140024+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1074,6 +1119,11 @@
     {
       "h": "Alavés",
       "a": "Deportivo",
+      "n": 2
+    },
+    {
+      "h": "Man City",
+      "a": "Fulham",
       "n": 2
     }
   ]

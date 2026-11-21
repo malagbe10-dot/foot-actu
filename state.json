@@ -776,11 +776,10 @@
     }
   ],
   "fd_scores": {},
-  "_out_logged": true,
   "lineup_calls": {
     "date": "2026-11-21",
-    "n": 1,
-    "last": ""
+    "n": 3,
+    "last": "2026-11-21T12:00:11.354240+00:00"
   },
   "lineup_plan": {
     "date": "2026-11-21",
@@ -968,6 +967,14 @@
         "away": "Celta Vigo"
       }
     ],
-    "tries": {}
-  }
+    "tries": {
+      "1557474": 2
+    }
+  },
+  "live_calls": {
+    "date": "2026-11-21",
+    "n": 1,
+    "last": "2026-11-21T12:00:32.364585+00:00"
+  },
+  "live_fixtures": []
 }

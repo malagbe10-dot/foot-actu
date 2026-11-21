@@ -102,7 +102,12 @@
     "lineup-1575222",
     "ev-1570453-8-55-penmiss-608",
     "lineup-1575223",
-    "fdgoal-564755-2-1"
+    "fdgoal-564755-2-1",
+    "fdgoal-558525-1-0",
+    "fdgoal-558528-1-0",
+    "ev-1550200-0-24-goal-386305",
+    "ev-1550202-0-25-goal-133729",
+    "ev-1570453-12-62-goal-608"
   ],
   "history": [
     {
@@ -917,6 +922,46 @@
       "message": "⚽ BUUUT ! Alavés marque.\n\n📊 Alavés 2 - 1 Deportivo\n🏆 Primera Division\n\n#Football #PrimeraDivision #Direct",
       "image": "cards/fdgoal-564755-2-1.png",
       "date": "2026-11-21T14:28:06.152127+00:00"
+    },
+    {
+      "id": "fdgoal-558525-1-0",
+      "type": "event",
+      "title": "Como 1907 1 - 0 Cagliari",
+      "message": "⚽ BUUUT ! Como 1907 marque.\n\n📊 Como 1907 1 - 0 Cagliari\n🏆 Serie A\n\n#Football #SerieA #Direct",
+      "image": "cards/fdgoal-558525-1-0.png",
+      "date": "2026-11-21T14:32:19.928788+00:00"
+    },
+    {
+      "id": "fdgoal-558528-1-0",
+      "type": "event",
+      "title": "Lazio 1 - 0 Lecce",
+      "message": "⚽ BUUUT ! Lazio marque.\n\n📊 Lazio 1 - 0 Lecce\n🏆 Serie A\n\n#Football #SerieA #Direct",
+      "image": "cards/fdgoal-558528-1-0.png",
+      "date": "2026-11-21T14:32:24.049310+00:00"
+    },
+    {
+      "id": "ev-1550200-0-24-goal-386305",
+      "type": "event",
+      "title": "Como 1 - 0 Cagliari",
+      "message": "ℹ️ Détails du but (24') : Jacobo Ramón (Como).\n\n📊 Como 1 - 0 Cagliari\n\n#Football #Direct",
+      "image": "cards/ev-1550200-0-24-goal-386305.png",
+      "date": "2026-11-21T14:35:46.374953+00:00"
+    },
+    {
+      "id": "ev-1550202-0-25-goal-133729",
+      "type": "event",
+      "title": "Lazio 1 - 0 Lecce",
+      "message": "ℹ️ Détails du but (25') : Tijjani Noslin (Lazio), passe décisive de Gustav Isaksen.\n\n📊 Lazio 1 - 0 Lecce\n\n#Football #Direct",
+      "image": "cards/ev-1550202-0-25-goal-133729.png",
+      "date": "2026-11-21T14:35:49.311036+00:00"
+    },
+    {
+      "id": "ev-1570453-12-62-goal-608",
+      "type": "event",
+      "title": "Alaves 3 - 0 Deportivo La Coruna",
+      "message": "ℹ️ Détails du but (62') : Lucas Boyé (Alaves), passe décisive de Angel Pérez Hidalgo.\n\n📊 Alaves 3 - 0 Deportivo La Coruna\n\n#Football #Direct",
+      "image": "cards/ev-1570453-12-62-goal-608.png",
+      "date": "2026-11-21T14:35:52.149049+00:00"
     }
   ],
   "fd_scores": {
@@ -929,10 +974,30 @@
       1
     ],
     "558525": [
-      0,
+      1,
       0
     ],
     "558528": [
+      1,
+      0
+    ],
+    "565858": [
+      0,
+      0
+    ],
+    "565860": [
+      0,
+      0
+    ],
+    "565862": [
+      0,
+      0
+    ],
+    "565865": [
+      0,
+      0
+    ],
+    "565857": [
       0,
       0
     ]
@@ -1147,14 +1212,19 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 11,
-    "last": "2026-11-21T14:21:38.169500+00:00"
+    "n": 12,
+    "last": "2026-11-21T14:35:42.623864+00:00"
   },
   "live_fixtures": [
     1557474,
     1570453,
     1550200,
-    1550202
+    1550202,
+    1575222,
+    1575223,
+    1575225,
+    1575226,
+    1575229
   ],
   "goal_keys": [
     {
@@ -1181,6 +1251,16 @@
       "h": "Alavés",
       "a": "Deportivo",
       "n": 3
+    },
+    {
+      "h": "Como 1907",
+      "a": "Cagliari",
+      "n": 1
+    },
+    {
+      "h": "Lazio",
+      "a": "Lecce",
+      "n": 1
     }
   ]
 }

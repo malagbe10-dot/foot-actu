@@ -153,7 +153,13 @@
     "ev-1575225-18-76-goal-203007",
     "ev-1575226-11-80-goal-637",
     "fdgoal-565862-0-1",
-    "fdgoal-560642-1-2"
+    "fdgoal-560642-1-2",
+    "fdgoal-560642-1-3",
+    "fdgoal-565858-1-5",
+    "ev-1552824-0-8-goal-200139",
+    "ev-1557470-5-53-goal-18766",
+    "ev-1557470-6-58-goal-48389",
+    "fdgoal-559628-1-0"
   ],
   "history": [
     {
@@ -1376,6 +1382,54 @@
       "message": "⚽ BUUUT ! Leeds United marque.\n\n📊 Chelsea 1 - 2 Leeds United\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
       "image": "cards/fdgoal-560642-1-2.png",
       "date": "2026-11-21T16:20:40.665171+00:00"
+    },
+    {
+      "id": "fdgoal-560642-1-3",
+      "type": "event",
+      "title": "Chelsea 1 - 3 Leeds United",
+      "message": "⚽ BUUUT ! Leeds United marque.\n\n📊 Chelsea 1 - 3 Leeds United\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560642-1-3.png",
+      "date": "2026-11-21T16:26:28.787272+00:00"
+    },
+    {
+      "id": "fdgoal-565858-1-5",
+      "type": "event",
+      "title": "Union Berlin 1 - 5 RB Leipzig",
+      "message": "⚽ BUUUT ! RB Leipzig marque.\n\n📊 Union Berlin 1 - 5 RB Leipzig\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565858-1-5.png",
+      "date": "2026-11-21T16:27:28.776973+00:00"
+    },
+    {
+      "id": "ev-1552824-0-8-goal-200139",
+      "type": "event",
+      "title": "Nice 1 - 0 Paris Saint Germain",
+      "message": "⚽ BUUUT ! 8'\n\nMohamed Amoura (Nice) marque. Passe décisive de Jonathan Clauss.\n\n📊 Nice 1 - 0 Paris Saint Germain\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/ev-1552824-0-8-goal-200139.png",
+      "date": "2026-11-21T16:28:40.456595+00:00"
+    },
+    {
+      "id": "ev-1557470-5-53-goal-18766",
+      "type": "event",
+      "title": "Chelsea 1 - 2 Leeds",
+      "message": "ℹ️ Détails du but (53') : Dominic Calvert-Lewin (Leeds).\n\n📊 Chelsea 1 - 2 Leeds\n\n#Football #Direct",
+      "image": "cards/ev-1557470-5-53-goal-18766.png",
+      "date": "2026-11-21T16:28:43.275003+00:00"
+    },
+    {
+      "id": "ev-1557470-6-58-goal-48389",
+      "type": "event",
+      "title": "Chelsea 1 - 3 Leeds",
+      "message": "ℹ️ Détails du but (58') : Noah Okafor (Leeds).\n\n📊 Chelsea 1 - 3 Leeds\n\n#Football #Direct",
+      "image": "cards/ev-1557470-6-58-goal-48389.png",
+      "date": "2026-11-21T16:28:46.235888+00:00"
+    },
+    {
+      "id": "fdgoal-559628-1-0",
+      "type": "event",
+      "title": "Nice 1 - 0 PSG",
+      "message": "⚽ BUUUT ! Nice marque.\n\n📊 Nice 1 - 0 PSG\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/fdgoal-559628-1-0.png",
+      "date": "2026-11-21T16:29:10.059357+00:00"
     }
   ],
   "fd_scores": {
@@ -1397,7 +1451,7 @@
     ],
     "565858": [
       1,
-      4
+      5
     ],
     "565860": [
       0,
@@ -1417,7 +1471,7 @@
     ],
     "560642": [
       1,
-      2
+      3
     ],
     "560650": [
       2,
@@ -1440,7 +1494,7 @@
       1
     ],
     "559628": [
-      0,
+      1,
       0
     ]
   },
@@ -1654,8 +1708,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 19,
-    "last": "2026-11-21T16:14:28.516833+00:00"
+    "n": 21,
+    "last": "2026-11-21T16:42:46.625022+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1672,7 +1726,8 @@
     1557470,
     1557471,
     1557476,
-    1570460
+    1570460,
+    1552824
   ],
   "goal_keys": [
     {
@@ -1854,6 +1909,26 @@
       "h": "Chelsea",
       "a": "Leeds United",
       "n": 3
+    },
+    {
+      "h": "Chelsea",
+      "a": "Leeds United",
+      "n": 4
+    },
+    {
+      "h": "Union Berlin",
+      "a": "RB Leipzig",
+      "n": 6
+    },
+    {
+      "h": "Nice",
+      "a": "Paris Saint Germain",
+      "n": 1
+    },
+    {
+      "h": "Nice",
+      "a": "PSG",
+      "n": 1
     }
   ]
 }

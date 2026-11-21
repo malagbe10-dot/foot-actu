@@ -62,7 +62,11 @@
     "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253603/1x1-athletic-espanyol.html",
     "news-https://www.skysports.com/cricket/live-blog/12040/13613502/australian-cricket-sandpapergate-latest-live-reaction-to-cameron-bancrofts-explosive-interview-telling-all-of-2018-ball-tampering",
     "news-https://www.skysports.com/f1/live-blog/12040/13613768/f1-las-vegas-gp-qualifying-and-final-practice-updates-results-stream-and-highlights-from-formula-1-race-weekend-on-the-strip",
-    "news-https://www.skysports.com/football/news/12040/13614555/x-paper-talk"
+    "news-https://www.skysports.com/football/news/12040/13614555/x-paper-talk",
+    "news-https://rmcsport.bfmtv.com/football/ligue-1/lens-toulouse-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-match-de-ligue-1-en-direct_AN-202611210057.html",
+    "news-https://rmcsport.bfmtv.com/football/premier-league/newcastle-arsenal-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-premier-league-en-direct_AN-202611210064.html",
+    "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253459/milagro-sarral.html",
+    "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253303/necesidad-central-lateral.html"
   ],
   "history": [
     {
@@ -557,6 +561,38 @@
       "message": "🚨 Presse : Osimhen prêt à écouter les offres de Manchester United\n\nLes articles principaux et les rumeurs de transferts des journaux de samedi...\n\n📰 Source : Sky Sports\n\n#Football #Actu",
       "link": "https://www.skysports.com/football/news/12040/13614555/x-paper-talk",
       "date": "2026-11-21T04:22:18.134199+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/ligue-1/lens-toulouse-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-match-de-ligue-1-en-direct_AN-202611210057.html",
+      "type": "news",
+      "title": "Lens - Toulouse : sur quelle chaîne TV et à quelle heure regarder le match de Ligue 1 en direct ?",
+      "message": "🚨 Lens - Toulouse : sur quelle chaîne TV et à quelle heure regarder le match de Ligue 1 en direct ?\n\nAffiche indécise et électrique au stade Bollaert ! À égalité parfaite au classement avec 13 points chacun, le RC Lens et le Toulouse FC s’affrontent dans un duel charnière. Avec, en prime, les grands débuts de Didier Digard sur le banc lensois !\n\n📰 Source : RMC Sport\n\n#Football #Actu",
+      "link": "https://rmcsport.bfmtv.com/football/ligue-1/lens-toulouse-sur-quelle-chaine-tv-et-a-quelle-heure-regarder-le-match-de-ligue-1-en-direct_AN-202611210057.html",
+      "date": "2026-11-21T05:23:46.357778+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/premier-league/newcastle-arsenal-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-premier-league-en-direct_AN-202611210064.html",
+      "type": "news",
+      "title": "Newcastle - Arsenal : à quelle heure et sur quelle chaîne regarder le match de Premier League en direct ?",
+      "message": "🚨 Newcastle - Arsenal : à quelle heure et sur quelle chaîne regarder le match de Premier League en direct ?\n\nSolidement installé en tête de la Premier League, Arsenal se rend sur la pelouse de Newcastle avec l’ambition de poursuivre sa belle série. Voici toutes les informations pour suivre cette rencontre en direct.\n\n📰 Source : RMC Sport\n\n#Football #Actu",
+      "link": "https://rmcsport.bfmtv.com/football/premier-league/newcastle-arsenal-a-quelle-heure-et-sur-quelle-chaine-regarder-le-match-de-premier-league-en-direct_AN-202611210064.html",
+      "date": "2026-11-21T05:23:49.352464+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253459/milagro-sarral.html",
+      "type": "news",
+      "title": "Un autre miracle à Sarral ?",
+      "message": "🚨 Un autre miracle à Sarral ?\n\nExiste-t-il une possibilité d'organiser un match avec des joueurs et des joueuses mixtes des deux équipes nationales espagnoles à des fins caritatives ? Serait-il possible que le match se déroule sur un terrain de football d'un petit village comme Sarral, qui compte 1 644 habitants ?\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253459/milagro-sarral.html",
+      "date": "2026-11-21T05:23:51.196876+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253303/necesidad-central-lateral.html",
+      "type": "news",
+      "title": "Besoin central... ou secondaire",
+      "message": "🚨 Besoin central... ou secondaire\n\nLe mercato d’hiver approche et le recrutement d’un défenseur central apparaît à nouveau comme le principal besoin du Barça. C'était déjà le cas cet été, a priori avec l'attaquant de pointe, mais finalement personne n'est arrivé pour occuper ce poste.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/fc-barcelona/20261121/1004253303/necesidad-central-lateral.html",
+      "date": "2026-11-21T05:23:53.902141+00:00"
     }
   ],
   "fd_scores": {}

@@ -159,7 +159,9 @@
     "ev-1552824-0-8-goal-200139",
     "ev-1557470-5-53-goal-18766",
     "ev-1557470-6-58-goal-48389",
-    "fdgoal-559628-1-0"
+    "fdgoal-559628-1-0",
+    "fdgoal-559628-1-1",
+    "fdgoal-559628-1-2"
   ],
   "history": [
     {
@@ -1430,6 +1432,22 @@
       "message": "⚽ BUUUT ! Nice marque.\n\n📊 Nice 1 - 0 PSG\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
       "image": "cards/fdgoal-559628-1-0.png",
       "date": "2026-11-21T16:29:10.059357+00:00"
+    },
+    {
+      "id": "fdgoal-559628-1-1",
+      "type": "event",
+      "title": "Nice 1 - 1 PSG",
+      "message": "⚽ BUUUT ! PSG marque.\n\n📊 Nice 1 - 1 PSG\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/fdgoal-559628-1-1.png",
+      "date": "2026-11-21T16:52:35.766483+00:00"
+    },
+    {
+      "id": "fdgoal-559628-1-2",
+      "type": "event",
+      "title": "Nice 1 - 2 PSG",
+      "message": "⚽ BUUUT ! PSG marque.\n\n📊 Nice 1 - 2 PSG\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/fdgoal-559628-1-2.png",
+      "date": "2026-11-21T16:53:48.000595+00:00"
     }
   ],
   "fd_scores": {
@@ -1495,7 +1513,7 @@
     ],
     "559628": [
       1,
-      0
+      2
     ]
   },
   "lineup_calls": {
@@ -1929,6 +1947,16 @@
       "h": "Nice",
       "a": "PSG",
       "n": 1
+    },
+    {
+      "h": "Nice",
+      "a": "PSG",
+      "n": 2
+    },
+    {
+      "h": "Nice",
+      "a": "PSG",
+      "n": 3
     }
   ]
 }

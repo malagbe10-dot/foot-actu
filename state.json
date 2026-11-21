@@ -111,7 +111,10 @@
     "ev-1575222-0-14-goal-345388",
     "ev-1575225-3-16-var-715",
     "ev-1575225-5-18-goal-314511",
-    "fdgoal-564755-3-1"
+    "fdgoal-564755-3-1",
+    "fdgoal-565865-1-0",
+    "ev-1575223-0-25-goal-25926",
+    "fdgoal-560650-1-0"
   ],
   "history": [
     {
@@ -998,6 +1001,30 @@
       "message": "⚽ BUUUT ! Alavés marque.\n\n📊 Alavés 3 - 1 Deportivo\n🏆 Primera Division\n\n#Football #PrimeraDivision #Direct",
       "image": "cards/fdgoal-564755-3-1.png",
       "date": "2026-11-21T14:55:50.724391+00:00"
+    },
+    {
+      "id": "fdgoal-565865-1-0",
+      "type": "event",
+      "title": "Frankfurt 1 - 0 Hoffenheim",
+      "message": "⚽ BUUUT ! Frankfurt marque.\n\n📊 Frankfurt 1 - 0 Hoffenheim\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565865-1-0.png",
+      "date": "2026-11-21T15:02:48.990294+00:00"
+    },
+    {
+      "id": "ev-1575223-0-25-goal-25926",
+      "type": "event",
+      "title": "Eintracht Frankfurt 1 - 0 1899 Hoffenheim",
+      "message": "ℹ️ Détails du but (25') : Jonathan Burkardt (Eintracht Frankfurt), passe décisive de Ansgar Knauff.\n\n📊 Eintracht Frankfurt 1 - 0 1899 Hoffenheim\n\n#Football #Direct",
+      "image": "cards/ev-1575223-0-25-goal-25926.png",
+      "date": "2026-11-21T15:04:00.263248+00:00"
+    },
+    {
+      "id": "fdgoal-560650-1-0",
+      "type": "event",
+      "title": "Coventry City 1 - 0 Crystal Palace",
+      "message": "⚽ BUUUT ! Coventry City marque.\n\n📊 Coventry City 1 - 0 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560650-1-0.png",
+      "date": "2026-11-21T15:11:25.241047+00:00"
     }
   ],
   "fd_scores": {
@@ -1030,11 +1057,31 @@
       0
     ],
     "565865": [
-      0,
+      1,
       0
     ],
     "565857": [
       1,
+      0
+    ],
+    "560642": [
+      0,
+      0
+    ],
+    "560650": [
+      1,
+      0
+    ],
+    "560647": [
+      0,
+      0
+    ],
+    "560648": [
+      0,
+      0
+    ],
+    "560644": [
+      0,
       0
     ]
   },
@@ -1248,8 +1295,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 13,
-    "last": "2026-11-21T14:49:53.697881+00:00"
+    "n": 14,
+    "last": "2026-11-21T15:03:56.732375+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1260,7 +1307,12 @@
     1575223,
     1575225,
     1575226,
-    1575229
+    1575229,
+    1557467,
+    1557468,
+    1557470,
+    1557471,
+    1557476
   ],
   "goal_keys": [
     {
@@ -1312,6 +1364,16 @@
       "h": "Alavés",
       "a": "Deportivo",
       "n": 4
+    },
+    {
+      "h": "Frankfurt",
+      "a": "Hoffenheim",
+      "n": 1
+    },
+    {
+      "h": "Coventry City",
+      "a": "Crystal Palace",
+      "n": 1
     }
   ]
 }

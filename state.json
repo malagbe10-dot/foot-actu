@@ -107,7 +107,11 @@
     "fdgoal-558528-1-0",
     "ev-1550200-0-24-goal-386305",
     "ev-1550202-0-25-goal-133729",
-    "ev-1570453-12-62-goal-608"
+    "ev-1570453-12-62-goal-608",
+    "ev-1575222-0-14-goal-345388",
+    "ev-1575225-3-16-var-715",
+    "ev-1575225-5-18-goal-314511",
+    "fdgoal-564755-3-1"
   ],
   "history": [
     {
@@ -962,6 +966,38 @@
       "message": "ℹ️ Détails du but (62') : Lucas Boyé (Alaves), passe décisive de Angel Pérez Hidalgo.\n\n📊 Alaves 3 - 0 Deportivo La Coruna\n\n#Football #Direct",
       "image": "cards/ev-1570453-12-62-goal-608.png",
       "date": "2026-11-21T14:35:52.149049+00:00"
+    },
+    {
+      "id": "ev-1575222-0-14-goal-345388",
+      "type": "event",
+      "title": "Bayer Leverkusen 1 - 0 SC Paderborn 07",
+      "message": "⚽ BUUUT ! 14'\n\nAfonso Moreira (Bayer Leverkusen) marque. Passe décisive de Malik Tillman.\n\n📊 Bayer Leverkusen 1 - 0 SC Paderborn 07\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575222-0-14-goal-345388.png",
+      "date": "2026-11-21T14:49:57.836202+00:00"
+    },
+    {
+      "id": "ev-1575225-3-16-var-715",
+      "type": "event",
+      "title": "Union Berlin 0 - 0 RB Leipzig",
+      "message": "📺 VAR ! 16'\n\nIntervention de l'arbitrage vidéo : penalty accordé. Équipe concernée : RB Leipzig.\n\n📊 Union Berlin 0 - 0 RB Leipzig\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575225-3-16-var-715.png",
+      "date": "2026-11-21T14:50:01.098767+00:00"
+    },
+    {
+      "id": "ev-1575225-5-18-goal-314511",
+      "type": "event",
+      "title": "Union Berlin 0 - 1 RB Leipzig",
+      "message": "⚽ BUT SUR PENALTY ! 18'\n\nAntonio Nusa (RB Leipzig) ne tremble pas sur penalty.\n\n📊 Union Berlin 0 - 1 RB Leipzig\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/ev-1575225-5-18-goal-314511.png",
+      "date": "2026-11-21T14:50:04.417598+00:00"
+    },
+    {
+      "id": "fdgoal-564755-3-1",
+      "type": "event",
+      "title": "Alavés 3 - 1 Deportivo",
+      "message": "⚽ BUUUT ! Alavés marque.\n\n📊 Alavés 3 - 1 Deportivo\n🏆 Primera Division\n\n#Football #PrimeraDivision #Direct",
+      "image": "cards/fdgoal-564755-3-1.png",
+      "date": "2026-11-21T14:55:50.724391+00:00"
     }
   ],
   "fd_scores": {
@@ -970,7 +1006,7 @@
       1
     ],
     "564755": [
-      2,
+      3,
       1
     ],
     "558525": [
@@ -983,7 +1019,7 @@
     ],
     "565858": [
       0,
-      0
+      1
     ],
     "565860": [
       0,
@@ -998,7 +1034,7 @@
       0
     ],
     "565857": [
-      0,
+      1,
       0
     ]
   },
@@ -1212,8 +1248,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 12,
-    "last": "2026-11-21T14:35:42.623864+00:00"
+    "n": 13,
+    "last": "2026-11-21T14:49:53.697881+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1261,6 +1297,21 @@
       "h": "Lazio",
       "a": "Lecce",
       "n": 1
+    },
+    {
+      "h": "Bayer Leverkusen",
+      "a": "SC Paderborn 07",
+      "n": 1
+    },
+    {
+      "h": "Union Berlin",
+      "a": "RB Leipzig",
+      "n": 1
+    },
+    {
+      "h": "Alavés",
+      "a": "Deportivo",
+      "n": 4
     }
   ]
 }

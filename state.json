@@ -122,7 +122,17 @@
     "ev-1575223-1-41-penmiss-726",
     "ev-1575223-2-44-penmiss-25926",
     "ev-1575225-6-41-goal-951",
-    "fdgoal-558525-2-0"
+    "fdgoal-558525-2-0",
+    "fdgoal-560647-1-0",
+    "fdgoal-558528-2-0",
+    "fdgoal-560642-1-0",
+    "ev-1557468-0-19-goal-152856",
+    "ev-1557470-1-25-goal-203762",
+    "ev-1557470-2-28-goal-48389",
+    "ev-1557471-2-30-goal-33462",
+    "ev-1550200-3-56-goal-162266",
+    "ev-1550202-4-68-goal-133729",
+    "fdgoal-565857-2-0"
   ],
   "history": [
     {
@@ -1097,6 +1107,86 @@
       "message": "⚽ BUUUT ! Como 1907 marque.\n\n📊 Como 1907 2 - 0 Cagliari\n🏆 Serie A\n\n#Football #SerieA #Direct",
       "image": "cards/fdgoal-558525-2-0.png",
       "date": "2026-11-21T15:23:35.421565+00:00"
+    },
+    {
+      "id": "fdgoal-560647-1-0",
+      "type": "event",
+      "title": "Bournemouth 1 - 0 Nottingham",
+      "message": "⚽ BUUUT ! Bournemouth marque.\n\n📊 Bournemouth 1 - 0 Nottingham\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560647-1-0.png",
+      "date": "2026-11-21T15:24:48.328455+00:00"
+    },
+    {
+      "id": "fdgoal-558528-2-0",
+      "type": "event",
+      "title": "Lazio 2 - 0 Lecce",
+      "message": "⚽ BUUUT ! Lazio marque.\n\n📊 Lazio 2 - 0 Lecce\n🏆 Serie A\n\n#Football #SerieA #Direct",
+      "image": "cards/fdgoal-558528-2-0.png",
+      "date": "2026-11-21T15:31:31.548151+00:00"
+    },
+    {
+      "id": "fdgoal-560642-1-0",
+      "type": "event",
+      "title": "Chelsea 1 - 0 Leeds United",
+      "message": "⚽ BUUUT ! Chelsea marque.\n\n📊 Chelsea 1 - 0 Leeds United\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560642-1-0.png",
+      "date": "2026-11-21T15:31:35.670141+00:00"
+    },
+    {
+      "id": "ev-1557468-0-19-goal-152856",
+      "type": "event",
+      "title": "Bournemouth 1 - 0 Nottingham Forest",
+      "message": "ℹ️ Détails du but (19') : Francisco Evanilson (Bournemouth), passe décisive de James Hill.\n\n📊 Bournemouth 1 - 0 Nottingham Forest\n\n#Football #Direct",
+      "image": "cards/ev-1557468-0-19-goal-152856.png",
+      "date": "2026-11-21T15:32:11.426044+00:00"
+    },
+    {
+      "id": "ev-1557470-1-25-goal-203762",
+      "type": "event",
+      "title": "Chelsea 1 - 0 Leeds",
+      "message": "ℹ️ Détails du but (25') : Emanuel Emegha (Chelsea), passe décisive de Morgan Rogers.\n\n📊 Chelsea 1 - 0 Leeds\n\n#Football #Direct",
+      "image": "cards/ev-1557470-1-25-goal-203762.png",
+      "date": "2026-11-21T15:32:14.867853+00:00"
+    },
+    {
+      "id": "ev-1557470-2-28-goal-48389",
+      "type": "event",
+      "title": "Chelsea 1 - 1 Leeds",
+      "message": "⚽ BUUUT ! 28'\n\nNoah Okafor (Leeds) marque. Passe décisive de Dominic Calvert-Lewin.\n\n📊 Chelsea 1 - 1 Leeds\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/ev-1557470-2-28-goal-48389.png",
+      "date": "2026-11-21T15:32:18.418920+00:00"
+    },
+    {
+      "id": "ev-1557471-2-30-goal-33462",
+      "type": "event",
+      "title": "Coventry 2 - 1 Crystal Palace",
+      "message": "⚽ BUUUT ! 30'\n\nTatsuhiro Sakamoto (Coventry) marque. Passe décisive de Jack Rudoni.\n\n📊 Coventry 2 - 1 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/ev-1557471-2-30-goal-33462.png",
+      "date": "2026-11-21T15:32:21.443963+00:00"
+    },
+    {
+      "id": "ev-1550200-3-56-goal-162266",
+      "type": "event",
+      "title": "Como 2 - 0 Cagliari",
+      "message": "ℹ️ Détails du but (56') : Lucas Da Cunha (Como), passe décisive de Yan Couto.\n\n📊 Como 2 - 0 Cagliari\n\n#Football #Direct",
+      "image": "cards/ev-1550200-3-56-goal-162266.png",
+      "date": "2026-11-21T15:32:24.740127+00:00"
+    },
+    {
+      "id": "ev-1550202-4-68-goal-133729",
+      "type": "event",
+      "title": "Lazio 2 - 0 Lecce",
+      "message": "ℹ️ Détails du but (68') : Tijjani Noslin (Lazio), passe décisive de Kenneth Taylor.\n\n📊 Lazio 2 - 0 Lecce\n\n#Football #Direct",
+      "image": "cards/ev-1550202-4-68-goal-133729.png",
+      "date": "2026-11-21T15:32:27.876508+00:00"
+    },
+    {
+      "id": "fdgoal-565857-2-0",
+      "type": "event",
+      "title": "Leverkusen 2 - 0 SC Paderborn",
+      "message": "⚽ BUUUT ! Leverkusen marque.\n\n📊 Leverkusen 2 - 0 SC Paderborn\n🏆 Bundesliga\n\n#Football #Bundesliga #Direct",
+      "image": "cards/fdgoal-565857-2-0.png",
+      "date": "2026-11-21T15:42:14.517911+00:00"
     }
   ],
   "fd_scores": {
@@ -1113,7 +1203,7 @@
       0
     ],
     "558528": [
-      1,
+      2,
       0
     ],
     "565858": [
@@ -1133,19 +1223,19 @@
       0
     ],
     "565857": [
-      1,
+      2,
       0
     ],
     "560642": [
-      0,
-      0
-    ],
-    "560650": [
       1,
       1
     ],
+    "560650": [
+      2,
+      1
+    ],
     "560647": [
-      0,
+      1,
       0
     ],
     "560648": [
@@ -1371,8 +1461,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 15,
-    "last": "2026-11-21T15:18:02.922820+00:00"
+    "n": 16,
+    "last": "2026-11-21T15:32:07.630079+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1470,6 +1560,36 @@
     {
       "h": "Como 1907",
       "a": "Cagliari",
+      "n": 2
+    },
+    {
+      "h": "Bournemouth",
+      "a": "Nottingham",
+      "n": 1
+    },
+    {
+      "h": "Lazio",
+      "a": "Lecce",
+      "n": 2
+    },
+    {
+      "h": "Chelsea",
+      "a": "Leeds United",
+      "n": 1
+    },
+    {
+      "h": "Chelsea",
+      "a": "Leeds",
+      "n": 2
+    },
+    {
+      "h": "Coventry",
+      "a": "Crystal Palace",
+      "n": 3
+    },
+    {
+      "h": "Leverkusen",
+      "a": "SC Paderborn",
       "n": 2
     }
   ]

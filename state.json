@@ -70,7 +70,11 @@
     "news-https://www.bbc.co.uk/sport/football/articles/cv7028xeler2o?at_medium=RSS&at_campaign=rss",
     "news-https://www.skysports.com/darts/news/12040/13614374/michael-van-gerwen-preparing-for-the-worst-as-he-faces-tom-sykes-in-grand-slam-of-darts-quarter-finals",
     "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253605/no-hay-dos-tres-athletic.html",
-    "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253600/juegan-4-encuentros-sabado-st-andreu-recibe-madrileno-europa-visita-aguilas.html"
+    "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253600/juegan-4-encuentros-sabado-st-andreu-recibe-madrileno-europa-visita-aguilas.html",
+    "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253571/filial-osasuna-nuevo-zona-noble.html",
+    "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253570/san-juan-at-cortar-racha-cerdanyola.html",
+    "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253522/duelo-directo-permanencia-vallecas.html",
+    "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253512/sevilla-betis-europa-libran-primer-derbi-temporada.html"
   ],
   "history": [
     {
@@ -629,6 +633,38 @@
       "message": "🚨 Quatre matchs se déroulent ce samedi : le St. Andreu reçoit le Madrileño et l'Europa se rend à Águilas\n\nUne ambiance de gala se prépare pour accueillir ce match contre l’Atlético Madrileño au stade Narcís Sala, lors de l’inauguration du terrain en gazon synthétique, après son « exil » aux installations de Can Dragó et son dernier match à domicile contre Teruel au stade Palamós-Costa Brava.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
       "link": "https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253600/juegan-4-encuentros-sabado-st-andreu-recibe-madrileno-europa-visita-aguilas.html",
       "date": "2026-11-21T06:22:47.356209+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253571/filial-osasuna-nuevo-zona-noble.html",
+      "type": "news",
+      "title": "L’équipe réserve d’Osasuna, de retour dans le haut du classement",
+      "message": "🚨 L’équipe réserve d’Osasuna, de retour dans le haut du classement\n\nOsasuna veut être fort à domicile, enchaîner une deuxième victoire et se qualifier à nouveau pour les play-offs. Pour ce faire, il devra faire preuve de la même maîtrise que lors de la dernière journée. Bruno Pérez est forfait. Carbonell et Nacho Rubio sont les absents du Barbastro - Marcos López/Adrián Mora\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253571/filial-osasuna-nuevo-zona-noble.html",
+      "date": "2026-11-21T06:36:48.011866+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253570/san-juan-at-cortar-racha-cerdanyola.html",
+      "type": "news",
+      "title": "Le San Juan At., pour mettre fin à la série du Cerdanyola",
+      "message": "🚨 Le San Juan At., pour mettre fin à la série du Cerdanyola\n\nLe San Juan At. veut mettre fin à la série du Cerdanyola, qui n'a pas perdu depuis six journées et qui s'est hissé à la deuxième place. Dani Sánchez se retrouve sans Víctor Pérez, suspendu. Jaume est incertain.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253570/san-juan-at-cortar-racha-cerdanyola.html",
+      "date": "2026-11-21T06:36:50.765497+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253522/duelo-directo-permanencia-vallecas.html",
+      "type": "news",
+      "title": "Duel direct pour le maintien à Vallecas",
+      "message": "🚨 Duel direct pour le maintien à Vallecas\n\nLe Rayo Vallecano et Valence s’affrontent cet après-midi à Vallecas dans un duel direct où les deux équipes ont besoin de gagner pour reprendre leur souffle au classement.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253522/duelo-directo-permanencia-vallecas.html",
+      "date": "2026-11-21T06:36:53.072984+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253512/sevilla-betis-europa-libran-primer-derbi-temporada.html",
+      "type": "news",
+      "title": "Le Séville FC et le Betis, tous deux en Europe, disputent le premier derby de la saison",
+      "message": "🚨 Le Séville FC et le Betis, tous deux en Europe, disputent le premier derby de la saison\n\nCe samedi, le Séville FC et le Betis s’affrontent au Sánchez-Pizjuán lors du premier derby de la saison, un duel qui arrive à point nommé pour les deux protagonistes, les deux équipes étant classées aux places européennes et prêtes à en découdre.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253512/sevilla-betis-europa-libran-primer-derbi-temporada.html",
+      "date": "2026-11-21T06:36:55.195759+00:00"
     }
   ],
   "fd_scores": {}

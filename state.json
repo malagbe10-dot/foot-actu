@@ -74,7 +74,11 @@
     "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253571/filial-osasuna-nuevo-zona-noble.html",
     "news-https://www.mundodeportivo.com/futbol/futbol-catala/20261121/1004253570/san-juan-at-cortar-racha-cerdanyola.html",
     "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253522/duelo-directo-permanencia-vallecas.html",
-    "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253512/sevilla-betis-europa-libran-primer-derbi-temporada.html"
+    "news-https://www.mundodeportivo.com/futbol/laliga/20261121/1004253512/sevilla-betis-europa-libran-primer-derbi-temporada.html",
+    "news-https://rmcsport.bfmtv.com/football/alexandre-lafitte-debarque-au-soudan-pour-coacher-al-hilal-s-il-y-a-un-probleme-la-france-ne-peut-pas-m-aider_AN-202611210121.html",
+    "news-https://www.skysports.com/racing/news/12040/13614349/today-on-sky-sports-racing-ascot-lingfield-park-and-newcastle-feature-live-on-saturday",
+    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253606/amargo-regreso-titularidad.html",
+    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253306/bilbao-athletic-dificil-salida-anduva.html"
   ],
   "history": [
     {
@@ -665,6 +669,38 @@
       "message": "🚨 Le Séville FC et le Betis, tous deux en Europe, disputent le premier derby de la saison\n\nCe samedi, le Séville FC et le Betis s’affrontent au Sánchez-Pizjuán lors du premier derby de la saison, un duel qui arrive à point nommé pour les deux protagonistes, les deux équipes étant classées aux places européennes et prêtes à en découdre.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
       "link": "https://www.mundodeportivo.com/futbol/laliga/20261121/1004253512/sevilla-betis-europa-libran-primer-derbi-temporada.html",
       "date": "2026-11-21T06:36:55.195759+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/alexandre-lafitte-debarque-au-soudan-pour-coacher-al-hilal-s-il-y-a-un-probleme-la-france-ne-peut-pas-m-aider_AN-202611210121.html",
+      "type": "news",
+      "title": "Alexandre Lafitte débarque au Soudan pour coacher Al-Hilal, \"s’il y a un problème, la France ne peut pas m’aider\"",
+      "message": "🚨 Alexandre Lafitte débarque au Soudan pour coacher Al-Hilal, \"s’il y a un problème, la France ne peut pas m’aider\"\n\nÀ seulement 29 ans, et malgré trois saisons d’expérience comme coach principal en Afrique (Stade d’Abidjan et Marumo Gallants en Afrique du Sud), Alexandre Lafitte s’apprête à faire un saut vers l’inconnue la plus totale.\n\n📰 Source : RMC Sport\n\n#Football #Actu",
+      "link": "https://rmcsport.bfmtv.com/football/alexandre-lafitte-debarque-au-soudan-pour-coacher-al-hilal-s-il-y-a-un-probleme-la-france-ne-peut-pas-m-aider_AN-202611210121.html",
+      "date": "2026-11-21T07:06:55.334807+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/racing/news/12040/13614349/today-on-sky-sports-racing-ascot-lingfield-park-and-newcastle-feature-live-on-saturday",
+      "type": "news",
+      "title": "Doyen Quest et Blow Your Wad s’affrontent à nouveau dans l’Ascot’s 1965 Chase",
+      "message": "🚨 Doyen Quest et Blow Your Wad s’affrontent à nouveau dans l’Ascot’s 1965 Chase\n\nNous avons une journée de courses chargée samedi, avec des épreuves à Ascot, Lingfield Park et Newcastle, en direct sur Sky Sports Racing...\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/racing/news/12040/13614349/today-on-sky-sports-racing-ascot-lingfield-park-and-newcastle-feature-live-on-saturday",
+      "date": "2026-11-21T07:06:57.307046+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253606/amargo-regreso-titularidad.html",
+      "type": "news",
+      "title": "Un retour amer à la propriété",
+      "message": "🚨 Un retour amer à la propriété\n\nBeñat Prados a été la grande nouveauté dans le onze aligné par Terzic face à l’Espanyol. Alors que tout le monde attendait Gere au milieu de terrain, l’Allemand a misé sur le Navarrais lors de son premier match en tant que titulaire.\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253606/amargo-regreso-titularidad.html",
+      "date": "2026-11-21T07:06:59.513843+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253306/bilbao-athletic-dificil-salida-anduva.html",
+      "type": "news",
+      "title": "Le Bilbao Athletic a un déplacement difficile à Anduva",
+      "message": "🚨 Le Bilbao Athletic a un déplacement difficile à Anduva\n\nLe Bilbao Athletic a aujourd'hui un match difficile à Anduva. Les « Cachorros » se rendent chez le Mirandés (13 heures), une équipe qui occupe le haut du classement avec 20 points, soit quatre de plus que l'équipe réserve « rojiblanca ».\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253306/bilbao-athletic-dificil-salida-anduva.html",
+      "date": "2026-11-21T07:07:01.406494+00:00"
     }
   ],
   "fd_scores": {}

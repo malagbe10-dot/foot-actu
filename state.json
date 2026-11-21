@@ -86,7 +86,8 @@
     "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-12/",
     "news-https://www.footmercato.net/a8120659692075499701-fc-porto-le-pire-but-contre-son-camp-de-lhistoire-signe-francisco-moura",
     "news-https://as.com/futbol/internacional/mercado-de-fichajes-en-directo-rumores-altas-y-bajas-de-laliga-premier-serie-a-f202611-d-11/",
-    "news-https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/"
+    "news-https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/",
+    "lineup-1557474"
   ],
   "history": [
     {
@@ -773,13 +774,21 @@
       "message": "🚨 On demande à Gattuso s’il s’inquiète que ses joueurs passent toute la nuit à jouer à GTA VI : sa réponse vaut le détour\n\nL’entraîneur de la Lazio, légende mythique du football italien, a été interrogé lors d’une conférence de presse sur ce problème potentiel et sur la façon dont il l’évalue.\n\n📰 Source : AS\n\n#Football #Actu",
       "link": "https://as.com/futbol/videos/preguntan-a-gattuso-si-le-preocupa-que-sus-futbolistas-jueguen-toda-la-noche-al-gta-vi-su-respuesta-hay-que-verla-f202611-v/",
       "date": "2026-11-21T08:07:16.581943+00:00"
+    },
+    {
+      "id": "lineup-1557474",
+      "type": "event",
+      "title": "Compositions Manchester City - Fulham",
+      "message": "📋 COMPOSITIONS – Manchester City vs Fulham\n🏆 Premier League · ⏰ 12:30 UTC\n\n🏠 Manchester City (4-2-3-1)\nGardien : G. Donnarumma\nDéfenseurs : N. O&apos;Reilly, M. Guéhi, Rúben Dias, A. Khusanov\nMilieux : E. Anderson, A. Bouaddi, J. Doku, P. Foden, I. Ndiaye\nAttaquants : E. Haaland\n🧑‍💼 Entraîneur : E. Maresca\n\n✈️ Fulham (4-2-3-1)\nGardien : B. Leno\nDéfenseurs : R. Sessegnon, C. Bassey, D. Affengruber, K. Tete\nMilieux : S. Charles, S. Berge, A. Iwobi, Joshua King, Oscar Bobb\nAttaquants : Rodrigo Muniz\n🧑‍💼 Entraîneur : Álvaro Arbeloa\n\n#Football #PremierLeague",
+      "image": "cards/lineup-1557474.png",
+      "date": "2026-11-21T12:18:14.057955+00:00"
     }
   ],
   "fd_scores": {},
   "lineup_calls": {
     "date": "2026-11-21",
-    "n": 3,
-    "last": "2026-11-21T12:00:11.354240+00:00"
+    "n": 5,
+    "last": "2026-11-21T12:18:04.474729+00:00"
   },
   "lineup_plan": {
     "date": "2026-11-21",
@@ -968,13 +977,14 @@
       }
     ],
     "tries": {
-      "1557474": 2
+      "1557474": 3,
+      "1570453": 1
     }
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 1,
-    "last": "2026-11-21T12:00:32.364585+00:00"
+    "n": 2,
+    "last": "2026-11-21T12:14:41.997065+00:00"
   },
   "live_fixtures": []
 }

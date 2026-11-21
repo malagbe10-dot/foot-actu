@@ -54,7 +54,11 @@
     "result-555087",
     "news-https://as.com/futbol/fotorrelato/los-11-entrenadores-que-mas-equipos-han-dirigido-en-primera-division-en-los-ultimos-50-anos-f202611-f/",
     "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253604/portada-md-bizkaia-araba-hoy-sabado.html",
-    "news-https://as.com/futbol/fotorrelato/real-madrid-celta-jugadores-que-han-vestido-ambas-camisetas-f202611-f/"
+    "news-https://as.com/futbol/fotorrelato/real-madrid-celta-jugadores-que-han-vestido-ambas-camisetas-f202611-f/",
+    "news-https://www.skysports.com/f1/live-blog/12040/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
+    "news-https://www.skysports.com/watch/video/13614584/las-vegas-gp-george-russell-and-max-verstappen-crash-into-each-other-during-p3",
+    "news-https://as.com/futbol/fotorrelato/sevilla-betis-enemigos-intimos-f202611-f/",
+    "news-https://rmcsport.bfmtv.com/football/bundesliga/video-bayern-1-1-cologne-contusion-au-pied-pour-olise-et-grosse-blessure-pour-kane_VN-202611200999.html"
   ],
   "history": [
     {
@@ -485,6 +489,38 @@
       "message": "🚨 Real Madrid-Celta : les joueurs qui ont porté les deux maillots\n\nDécouvrez quels joueurs ont porté le maillot du Real Madrid et du Celta de Vigo à un moment de leur carrière professionnelle. Alberty, Michel Salgado, Núñez…\n\n📰 Source : AS\n\n#Football #Actu",
       "link": "https://as.com/futbol/fotorrelato/real-madrid-celta-jugadores-que-han-vestido-ambas-camisetas-f202611-f/",
       "date": "2026-11-21T02:01:05.236124+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/f1/live-blog/12040/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
+      "type": "news",
+      "title": "Larsen résiste à Palmowski pour remporter la première course de Las Vegas",
+      "message": "🚨 Larsen résiste à Palmowski pour remporter la première course de Las Vegas\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/f1/live-blog/12040/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
+      "date": "2026-11-21T03:13:13.699111+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/watch/video/13614584/las-vegas-gp-george-russell-and-max-verstappen-crash-into-each-other-during-p3",
+      "type": "news",
+      "title": "« Il m'a poussé contre la barrière !' - Russell et Verstappen entrent en collision lors de la dernière séance d'essais",
+      "message": "🚨 « Il m'a poussé contre la barrière !' - Russell et Verstappen entrent en collision lors de la dernière séance d'essais\n\nGeorge Russell et Max Verstappen se sont percutés lors de la dernière séance d’essais du Grand Prix de Las Vegas.\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/watch/video/13614584/las-vegas-gp-george-russell-and-max-verstappen-crash-into-each-other-during-p3",
+      "date": "2026-11-21T03:13:15.621711+00:00"
+    },
+    {
+      "id": "news-https://as.com/futbol/fotorrelato/sevilla-betis-enemigos-intimos-f202611-f/",
+      "type": "news",
+      "title": "Séville-Betis : ennemis intimes",
+      "message": "🚨 Séville-Betis : ennemis intimes\n\nLes derbys sévillans entre le Sevilla FC et le Real Betis sont des affrontements qui vont bien au-delà de simples rencontres sportives...\n\n📰 Source : AS\n\n#Football #Actu",
+      "link": "https://as.com/futbol/fotorrelato/sevilla-betis-enemigos-intimos-f202611-f/",
+      "date": "2026-11-21T03:13:17.456444+00:00"
+    },
+    {
+      "id": "news-https://rmcsport.bfmtv.com/football/bundesliga/video-bayern-1-1-cologne-contusion-au-pied-pour-olise-et-grosse-blessure-pour-kane_VN-202611200999.html",
+      "type": "news",
+      "title": "Bayern 1-1 Cologne : Contusion au pied pour Olise et grosse blessure pour Kane",
+      "message": "🚨 Bayern 1-1 Cologne : Contusion au pied pour Olise et grosse blessure pour Kane\n\nSale soirée pour le Bayern. Sorti sur blessure, Olise souffre d'une simple contusion à l'avant-pied lors du match nul (1-1) du Bayern contre cologne.\n\n📰 Source : RMC Sport\n\n#Football #Actu",
+      "link": "https://rmcsport.bfmtv.com/football/bundesliga/video-bayern-1-1-cologne-contusion-au-pied-pour-olise-et-grosse-blessure-pour-kane_VN-202611200999.html",
+      "date": "2026-11-21T03:13:19.292555+00:00"
     }
   ],
   "fd_scores": {}

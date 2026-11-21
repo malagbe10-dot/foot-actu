@@ -58,7 +58,11 @@
     "news-https://www.skysports.com/f1/live-blog/12040/13518208/f1-academy-2026-reports-calendar-news-results-standings-and-highlights-for-races-this-season",
     "news-https://www.skysports.com/watch/video/13614584/las-vegas-gp-george-russell-and-max-verstappen-crash-into-each-other-during-p3",
     "news-https://as.com/futbol/fotorrelato/sevilla-betis-enemigos-intimos-f202611-f/",
-    "news-https://rmcsport.bfmtv.com/football/bundesliga/video-bayern-1-1-cologne-contusion-au-pied-pour-olise-et-grosse-blessure-pour-kane_VN-202611200999.html"
+    "news-https://rmcsport.bfmtv.com/football/bundesliga/video-bayern-1-1-cologne-contusion-au-pied-pour-olise-et-grosse-blessure-pour-kane_VN-202611200999.html",
+    "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253603/1x1-athletic-espanyol.html",
+    "news-https://www.skysports.com/cricket/live-blog/12040/13613502/australian-cricket-sandpapergate-latest-live-reaction-to-cameron-bancrofts-explosive-interview-telling-all-of-2018-ball-tampering",
+    "news-https://www.skysports.com/f1/live-blog/12040/13613768/f1-las-vegas-gp-qualifying-and-final-practice-updates-results-stream-and-highlights-from-formula-1-race-weekend-on-the-strip",
+    "news-https://www.skysports.com/football/news/12040/13614555/x-paper-talk"
   ],
   "history": [
     {
@@ -521,6 +525,38 @@
       "message": "🚨 Bayern 1-1 Cologne : Contusion au pied pour Olise et grosse blessure pour Kane\n\nSale soirée pour le Bayern. Sorti sur blessure, Olise souffre d'une simple contusion à l'avant-pied lors du match nul (1-1) du Bayern contre cologne.\n\n📰 Source : RMC Sport\n\n#Football #Actu",
       "link": "https://rmcsport.bfmtv.com/football/bundesliga/video-bayern-1-1-cologne-contusion-au-pied-pour-olise-et-grosse-blessure-pour-kane_VN-202611200999.html",
       "date": "2026-11-21T03:13:19.292555+00:00"
+    },
+    {
+      "id": "news-https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253603/1x1-athletic-espanyol.html",
+      "type": "news",
+      "title": "Le 1x1 de l’Athletic face à l’Espanyol",
+      "message": "🚨 Le 1x1 de l’Athletic face à l’Espanyol\n\n- LE MEILLEUR - IÑAKI WILLIAMS Persévérant\n\n📰 Source : Mundo Deportivo\n\n#Football #Actu",
+      "link": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20261121/1004253603/1x1-athletic-espanyol.html",
+      "date": "2026-11-21T04:22:10.280295+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/cricket/live-blog/12040/13613502/australian-cricket-sandpapergate-latest-live-reaction-to-cameron-bancrofts-explosive-interview-telling-all-of-2018-ball-tampering",
+      "type": "news",
+      "title": "Smith nommé dans l'équipe pour son retour dans le championnat national, dans un contexte de silence autour de l'affaire du « Sandpapergate »",
+      "message": "🚨 Smith nommé dans l'équipe pour son retour dans le championnat national, dans un contexte de silence autour de l'affaire du « Sandpapergate »\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/cricket/live-blog/12040/13613502/australian-cricket-sandpapergate-latest-live-reaction-to-cameron-bancrofts-explosive-interview-telling-all-of-2018-ball-tampering",
+      "date": "2026-11-21T04:22:13.034340+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/f1/live-blog/12040/13613768/f1-las-vegas-gp-qualifying-and-final-practice-updates-results-stream-and-highlights-from-formula-1-race-weekend-on-the-strip",
+      "type": "news",
+      "title": "GP de Las Vegas : Russell le plus rapide en Q1, Verstappen averti pour conduite imprudente EN DIRECT !",
+      "message": "🚨 GP de Las Vegas : Russell le plus rapide en Q1, Verstappen averti pour conduite imprudente EN DIRECT !\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/f1/live-blog/12040/13613768/f1-las-vegas-gp-qualifying-and-final-practice-updates-results-stream-and-highlights-from-formula-1-race-weekend-on-the-strip",
+      "date": "2026-11-21T04:22:15.929950+00:00"
+    },
+    {
+      "id": "news-https://www.skysports.com/football/news/12040/13614555/x-paper-talk",
+      "type": "news",
+      "title": "Presse : Osimhen prêt à écouter les offres de Manchester United",
+      "message": "🚨 Presse : Osimhen prêt à écouter les offres de Manchester United\n\nLes articles principaux et les rumeurs de transferts des journaux de samedi...\n\n📰 Source : Sky Sports\n\n#Football #Actu",
+      "link": "https://www.skysports.com/football/news/12040/13614555/x-paper-talk",
+      "date": "2026-11-21T04:22:18.134199+00:00"
     }
   ],
   "fd_scores": {}

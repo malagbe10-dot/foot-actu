@@ -161,7 +161,12 @@
     "ev-1557470-6-58-goal-48389",
     "fdgoal-559628-1-0",
     "fdgoal-559628-1-1",
-    "fdgoal-559628-1-2"
+    "fdgoal-559628-1-2",
+    "fdgoal-560650-3-2",
+    "ev-1552824-1-27-var-335051",
+    "ev-1552824-2-31-goal-409216",
+    "ev-1552824-3-32-goal-343027",
+    "ev-1557470-18-90-goal-50739"
   ],
   "history": [
     {
@@ -1448,6 +1453,46 @@
       "message": "⚽ BUUUT ! PSG marque.\n\n📊 Nice 1 - 2 PSG\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
       "image": "cards/fdgoal-559628-1-2.png",
       "date": "2026-11-21T16:53:48.000595+00:00"
+    },
+    {
+      "id": "fdgoal-560650-3-2",
+      "type": "event",
+      "title": "Coventry City 3 - 2 Crystal Palace",
+      "message": "⚽ BUUUT ! Coventry City marque.\n\n📊 Coventry City 3 - 2 Crystal Palace\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/fdgoal-560650-3-2.png",
+      "date": "2026-11-21T16:54:13.779922+00:00"
+    },
+    {
+      "id": "ev-1552824-1-27-var-335051",
+      "type": "event",
+      "title": "Nice 1 - 0 Paris Saint Germain",
+      "message": "📺 VAR ! 27'\n\nIntervention de l'arbitrage vidéo : penalty accordé. Équipe concernée : Paris Saint Germain.\n\n📊 Nice 1 - 0 Paris Saint Germain\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/ev-1552824-1-27-var-335051.png",
+      "date": "2026-11-21T16:56:59.608615+00:00"
+    },
+    {
+      "id": "ev-1552824-2-31-goal-409216",
+      "type": "event",
+      "title": "Nice 1 - 1 Paris Saint Germain",
+      "message": "⚽ BUT SUR PENALTY ! 31'\n\nSenny Mayulu (Paris Saint Germain) ne tremble pas sur penalty.\n\n📊 Nice 1 - 1 Paris Saint Germain\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/ev-1552824-2-31-goal-409216.png",
+      "date": "2026-11-21T16:57:02.892073+00:00"
+    },
+    {
+      "id": "ev-1552824-3-32-goal-343027",
+      "type": "event",
+      "title": "Nice 1 - 2 Paris Saint Germain",
+      "message": "⚽ BUUUT ! 32'\n\nDésiré Doue (Paris Saint Germain) marque. Passe décisive de Achraf Hakimi.\n\n📊 Nice 1 - 2 Paris Saint Germain\n🏆 Ligue 1\n\n#Football #Ligue1 #Direct",
+      "image": "cards/ev-1552824-3-32-goal-343027.png",
+      "date": "2026-11-21T16:57:06.801292+00:00"
+    },
+    {
+      "id": "ev-1557470-18-90-goal-50739",
+      "type": "event",
+      "title": "Chelsea 1 - 4 Leeds",
+      "message": "⚽ BUUUT ! 90+1'\n\nBrenden Aaronson (Leeds) marque. Passe décisive de Harry Wilson.\n\n📊 Chelsea 1 - 4 Leeds\n🏆 Premier League\n\n#Football #PremierLeague #Direct",
+      "image": "cards/ev-1557470-18-90-goal-50739.png",
+      "date": "2026-11-21T16:57:10.385285+00:00"
     }
   ],
   "fd_scores": {
@@ -1489,10 +1534,10 @@
     ],
     "560642": [
       1,
-      3
+      4
     ],
     "560650": [
-      2,
+      3,
       2
     ],
     "560647": [
@@ -1514,6 +1559,10 @@
     "559628": [
       1,
       2
+    ],
+    "558526": [
+      0,
+      0
     ]
   },
   "lineup_calls": {
@@ -1726,8 +1775,8 @@
   },
   "live_calls": {
     "date": "2026-11-21",
-    "n": 21,
-    "last": "2026-11-21T16:42:46.625022+00:00"
+    "n": 23,
+    "last": "2026-11-21T17:10:57.319600+00:00"
   },
   "live_fixtures": [
     1557474,
@@ -1745,7 +1794,8 @@
     1557471,
     1557476,
     1570460,
-    1552824
+    1552824,
+    1550205
   ],
   "goal_keys": [
     {
@@ -1957,6 +2007,26 @@
       "h": "Nice",
       "a": "PSG",
       "n": 3
+    },
+    {
+      "h": "Coventry City",
+      "a": "Crystal Palace",
+      "n": 5
+    },
+    {
+      "h": "Nice",
+      "a": "Paris Saint Germain",
+      "n": 2
+    },
+    {
+      "h": "Nice",
+      "a": "Paris Saint Germain",
+      "n": 3
+    },
+    {
+      "h": "Chelsea",
+      "a": "Leeds",
+      "n": 5
     }
   ]
 }
